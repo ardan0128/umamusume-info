@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function test() {
+export default function Umamusume() {
   return (
     <div>
       <div>hello</div>
