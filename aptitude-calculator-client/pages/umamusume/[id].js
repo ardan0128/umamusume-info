@@ -1,20 +1,20 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import { getUmamusume } from '@/util/umamusume';
+import { useEffect, useState } from 'react';
 
-export default function Umamusume({ children }) {
-  console.log(`===================`);
-  const route = useRouter();
-  const umamusume = require(`@/public/data/${route.query.id}.json`);
-  console.log(`route.query.id: ${route.query.id}`);
-  console.log(`===================`);
+export default function Umamusume() {
+  const router = useRouter();
+  const [umamusume, setUmamusume] = useState({});
+
+  useEffect(() => {
+    if (router.query.id) setUmamusume(require(`@/public/data/umamusume/${router.query.id}.json`));
+  }, [router.query.id]);
 
   return (
     <>
       <div>title</div>
       <div>
-        <Image src={umamusume.image} width={144} height={144} alt="" />
+        <Image src={umamusume.image} width={144} height={144} alt="" loading />
       </div>
       <div>메지로 아르당</div>
       <div>
