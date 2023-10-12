@@ -1,9 +1,0 @@
-{
-  "id": 107101,
-  "title": "Special Dreamer",
-  "name": "Mejiro ardan",
-  "image": "/images/umamusume/107101.png",
-  "surface": { "turf": "A", "dirt": "G" },
-  "distance": { "short": "F", "mile": "C", "medium": "A", "long": "A" },
-  "strategy": { "runner": "G", "leader": "A", "betweener": "A", "chaser": "C" }
-}
