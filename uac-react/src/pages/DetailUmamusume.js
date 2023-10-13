@@ -2,8 +2,8 @@ import { useLocation } from 'react-router-dom';
 
 function DetailUmamusume() {
   const { state } = useLocation();
-  const umamusume = require(`../data/umamusume/${state.id}`);
-  const umamusumeImage = require(`../assets/images/umamusume/${state.id}.png`);
+  const umamusume = require(`../data/umamusume/${state.umamusume.id}`);
+  const umamusumeImage = require(`../assets/images/umamusume/${state.umamusume.id}.png`);
 
   return (
     <>
