@@ -1,4 +1,4 @@
-package com.umamusume.aptitudecalculatorserver;
+package com.uac;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

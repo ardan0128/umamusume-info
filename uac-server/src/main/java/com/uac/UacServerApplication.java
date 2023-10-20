@@ -1,13 +1,13 @@
-package com.umamusume.aptitudecalculatorserver;
+package com.uac;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AptitudeCalculatorServerApplication {
+public class UacServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AptitudeCalculatorServerApplication.class, args);
+		SpringApplication.run(UacServerApplication.class, args);
 	}
 
 }
