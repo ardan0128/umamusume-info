@@ -1,6 +1,13 @@
+buildscript {
+	ext {
+		queryDslVersion = '5.0.0'
+		p6spyVersion = '1.9.0'
+	}
+}
+
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '2.7.16'
+	id 'org.springframework.boot' version '3.1.5'
 	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
 }
 
@@ -8,7 +15,7 @@ group = 'com.uac'
 version = '0.0.1-SNAPSHOT'
 
 java {
-	sourceCompatibility = '11'
+	sourceCompatibility = '17'
 }
 
 configurations {
@@ -29,6 +36,24 @@ dependencies {
 	runtimeOnly 'org.postgresql:postgresql'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation "com.github.gavlyukovskiy:p6spy-spring-boot-starter:${p6spyVersion}"
+	// querydsl setting
+	implementation "com.querydsl:querydsl-jpa:${queryDslVersion}:jakarta"
+	annotationProcessor "com.querydsl:querydsl-apt:${queryDslVersion}:jakarta"
+	annotationProcessor "jakarta.annotation:jakarta.annotation-api"
+	annotationProcessor "jakarta.persistence:jakarta.persistence-api"
+}
+
+// querydsl setting
+def generated = 'src/main/generated'
+sourceSets {
+	main.java.srcDirs += [generated]
+}
+tasks.withType(JavaCompile) {
+	options.generatedSourceOutputDirectory = file(generated)
+}
+clean.doLast {
+	file(generated).deleteDir()
 }
 
 tasks.named('test') {
