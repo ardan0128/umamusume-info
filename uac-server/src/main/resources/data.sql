@@ -641,7 +641,7 @@ values
     (106501, 'Fun ☆ Fun ☆ Party Night', 'Daitaku Helios', '/images/umamusume/106501.png', 106501, 106501, 106501),
     (106601, 'Blast Mode! Turbo Engine', 'Twin Turbo', '/images/umamusume/106601.png', 106601, 106601, 106601),
     (106701, 'Natural Brilliance', 'Satono Diamond', '/images/umamusume/106701.png', 106701, 106701, 106701),
-    (106702, 'Floral Star・Prosperous Green', 'Satono Diamond', '/images/umamusume/106702.png', 106702, 106702, 106702)
+    (106702, 'Floral Star・Prosperous Green', 'Satono Diamond', '/images/umamusume/106702.png', 106702, 106702, 106702),
     (106703, 'Chevalier Bleu', 'Satono Diamond', '/images/umamusume/106703.png', 106703, 106703, 106703),
     (106801, 'Crowning Ooban', 'Kitasan Black', '/images/umamusume/106801.png', 106801, 106801, 106801),
     (106802, 'Jubilant Star・Auspicious Crane', 'Kitasan Black', '/images/umamusume/106802.png', 106802, 106802, 106802),
