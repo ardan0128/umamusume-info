@@ -18,3 +18,8 @@ spring:
   sql:
     init:
       mode: always
+
+decorator:
+  datasource:
+    p6spy:
+      enable-logging: true

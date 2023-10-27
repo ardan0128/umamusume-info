@@ -23,9 +23,10 @@ public class UmamusumeRepository {
     return query
         .select(umamusume)
         .from(umamusume)
-        .join(surface).fetchJoin()
-        .join(distance).fetchJoin()
-        .join(strategy).fetchJoin()
+        .where(umamusume.id.eq(id))
+        .join(umamusume.surface, surface).fetchJoin()
+        .join(umamusume.distance, distance).fetchJoin()
+        .join(umamusume.strategy, strategy).fetchJoin()
         .fetchOne();
   }
 

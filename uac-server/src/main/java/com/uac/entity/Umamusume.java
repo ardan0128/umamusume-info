@@ -25,11 +25,14 @@ public class Umamusume {
   private String image;
 
   @OneToOne(fetch = FetchType.LAZY)
+  @JoinColumn(name = "surface_id", referencedColumnName = "id")
   Surface surface;
 
   @OneToOne(fetch = FetchType.LAZY)
+  @JoinColumn(name = "distance_id", referencedColumnName = "id")
   Distance distance;
 
   @OneToOne(fetch = FetchType.LAZY)
+  @JoinColumn(name = "strategy_id", referencedColumnName = "id")
   Strategy strategy;
 }

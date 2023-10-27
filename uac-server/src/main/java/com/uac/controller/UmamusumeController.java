@@ -1,5 +1,6 @@
 package com.uac.controller;
 
+import com.uac.dto.UmamusumeDetailResponse;
 import com.uac.dto.UmamusumeRequest;
 import com.uac.dto.UmamusumeResponse;
 import com.uac.entity.Umamusume;
@@ -16,7 +17,12 @@ import java.util.Map;
 public class UmamusumeController {
   private final UmamusumeService umamusumeService;
   @GetMapping()
-  public List<UmamusumeResponse> findAll(){
-    return umamusumeService.ListUmamusume();
+  public List<UmamusumeResponse> getAllUmamusume(){
+    return umamusumeService.findAllUmamusume();
+  }
+
+  @GetMapping(path = "/{id}")
+  public UmamusumeDetailResponse getOneUmamusume(@PathVariable(name = "id") long id){
+    return umamusumeService.findOneUmamusumeById(id);
   }
 }
