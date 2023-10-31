@@ -24,6 +24,12 @@ public class Umamusume {
   @Column(name = "image", nullable = false)
   private String image;
 
+  @Column(name = "is_released", nullable = false)
+  private boolean isReleased;
+
+  @Column(name = "is_displayed", nullable = false)
+  private boolean isDisplayed;
+
   @OneToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = "surface_id", referencedColumnName = "id")
   Surface surface;
