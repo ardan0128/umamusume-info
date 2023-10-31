@@ -18,7 +18,7 @@ public class UmamusumeService {
   private final UmamusumeRepository umamusumeRepository;
 
   public List<UmamusumeResponse> findAllUmamusume(){
-    List<Umamusume> listUmamusume = umamusumeRepository.findAll();
+    List<Umamusume> listUmamusume = umamusumeRepository.findByIsDisplayed();
     List<UmamusumeResponse> listUmamusumeResponse = listUmamusume.stream()
         .map(umamusume -> new UmamusumeResponse(umamusume))
         .collect(Collectors.toList());

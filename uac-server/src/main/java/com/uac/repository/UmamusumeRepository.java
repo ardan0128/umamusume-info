@@ -36,4 +36,12 @@ public class UmamusumeRepository {
         .orderBy(umamusume.id.asc())
         .fetch();
   }
+
+  public List<Umamusume> findByIsDisplayed(){
+    return query
+        .selectFrom(umamusume)
+        .where(umamusume.isDisplayed.eq(true))
+        .orderBy(umamusume.id.asc())
+        .fetch();
+  }
 }
