@@ -13,9 +13,11 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/umamusume")
+@CrossOrigin(origins = "http://localhost:3000")
 @RequiredArgsConstructor
 public class UmamusumeController {
   private final UmamusumeService umamusumeService;
+
   @GetMapping()
   public List<UmamusumeResponse> getAllUmamusume(){
     return umamusumeService.findAllUmamusume();

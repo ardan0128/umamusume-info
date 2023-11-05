@@ -10,4 +10,5 @@ public class UacServerApplication {
 		SpringApplication.run(UacServerApplication.class, args);
 	}
 
+
 }
