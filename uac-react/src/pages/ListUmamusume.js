@@ -3,10 +3,12 @@ import { useEffect, useState } from 'react';
 import { getAllUmamusume } from '../data/api/Umamusume';
 
 function ListUmamusume() {
+  const [loading, setLoading] = useState(true);
   const [umamusumes, setUmamusumes] = useState();
 
   useEffect(() => {
     getAllUmamusume().then(res => {
+      setLoading(false);
       setUmamusumes(res);
     });
   }, []);
@@ -14,16 +16,17 @@ function ListUmamusume() {
   return (
     <>
       <div>List Umamusume</div>
-
-      {/* {umamusumes.map(umamusume => {
-        return (
-          <div key={umamusume.id}>
-            <Link to={`${umamusume.id}`} state={{ umamusume }}>
-              {umamusume.name}
-            </Link>
-          </div>
-        );
-      })} */}
+      {loading
+        ? 'loading...'
+        : umamusumes.map(umamusume => {
+            return (
+              <div key={umamusume.id}>
+                <Link to={`${umamusume.id}`} state={{ umamusume }}>
+                  {umamusume.name}
+                </Link>
+              </div>
+            );
+          })}
     </>
   );
 }
