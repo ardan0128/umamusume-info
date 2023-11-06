@@ -7,9 +7,11 @@ import DetailUmamusume from './pages/DetailUmamusume';
 function App() {
   return (
     <Routes>
-      <Route index path="/" element={<Main></Main>}></Route>
+      <Route index path="/" element={<Main />}></Route>
       <Route path="/umamusume" element={<ListUmamusume />}></Route>
-      <Route path="/umamusume/:id" element={<DetailUmamusume />}></Route>
+      <Route path="/umamusume">
+        <Route path=":id" element={<DetailUmamusume />}></Route>
+      </Route>
     </Routes>
   );
 }

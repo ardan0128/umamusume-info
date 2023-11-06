@@ -21,9 +21,7 @@ function ListUmamusume() {
         : umamusumes.map(umamusume => {
             return (
               <div key={umamusume.id}>
-                <Link to={`${umamusume.id}`} state={{ umamusume }}>
-                  {umamusume.name}
-                </Link>
+                <Link to={`${umamusume.id}`}>{umamusume.name}</Link>
               </div>
             );
           })}
