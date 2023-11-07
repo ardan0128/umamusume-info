@@ -17,7 +17,7 @@ function DetailUmamusume() {
     });
   }, [params.id]);
 
-  return <>{loading ? `loding...` : <Detailumamusume {...umamusumeDetail} image={image}></Detailumamusume>}</>;
+  return <>{loading ? `loding...` : <Detailumamusume {...umamusumeDetail}></Detailumamusume>}</>;
 }
 
 export default DetailUmamusume;

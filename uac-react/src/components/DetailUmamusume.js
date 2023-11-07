@@ -1,11 +1,10 @@
 function Detailumamusume(props) {
-  console.log(props);
   return (
     <>
       <div>
         <div>{props.title}</div>
         <div>
-          <img src={props.image} alt={props.id}></img>
+          <img src={`${process.env.PUBLIC_URL}/images/umamusume/${props.id}.png`} alt={props.id}></img>
         </div>
         <div>{props.name}</div>
         <div>
