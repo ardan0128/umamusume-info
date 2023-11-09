@@ -25,11 +25,9 @@ function ListUmamusume() {
               : umamusumes.map(umamusume => {
                   return (
                     <li key={umamusume.id}>
-                      <div className="rounded-xl bg-zinc-200 p-4">
-                        <Link to={`${umamusume.id}`}>
-                          <Umamusume id={umamusume.id} name={umamusume.name}></Umamusume>
-                        </Link>
-                      </div>
+                      <Link to={`${umamusume.id}`}>
+                        <Umamusume id={umamusume.id} name={umamusume.name}></Umamusume>
+                      </Link>
                     </li>
                   );
                 })}

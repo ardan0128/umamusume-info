@@ -1,6 +1,6 @@
 function Umamusume(props) {
   return (
-    <div>
+    <div className="rounded-xl bg-zinc-200 p-4">
       <div>
         <img className="rounded-xl bg-white" src={`${process.env.PUBLIC_URL}/images/umamusume/${props.id}.png`} alt={props.id}></img>
       </div>
