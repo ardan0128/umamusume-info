@@ -15,7 +15,41 @@ function DetailUmamusume() {
     });
   }, [params.id]);
 
-  return <>{loading ? `loding...` : <Detailumamusume {...umamusumeDetail}></Detailumamusume>}</>;
+  return (
+    <>
+      {loading ? (
+        `loding...`
+      ) : (
+        <div>
+          <Detailumamusume {...umamusumeDetail}></Detailumamusume>
+          <div className="p-8 min-w-640 grid grid-cols-2 gap-4">
+            <div className="flex absolute">
+              <div className="">
+                <img className="bg-slate-400" src={`${process.env.PUBLIC_URL}/images/umamusume/100101.png`} alt={100101}></img>
+              </div>
+              <div className="bg-red-400">
+                <img className="" src={`${process.env.PUBLIC_URL}/images/umamusume/100101.png`} alt={100101}></img>
+              </div>
+              <div className="bg-blue-400">
+                <img className="" src={`${process.env.PUBLIC_URL}/images/umamusume/100101.png`} alt={100101}></img>
+              </div>
+            </div>
+            <div className="flex absolute">
+              <div className="bg-slate-400">
+                <img className="" src={`${process.env.PUBLIC_URL}/images/umamusume/100101.png`} alt={100101}></img>
+              </div>
+              <div className="bg-red-400">
+                <img className="" src={`${process.env.PUBLIC_URL}/images/umamusume/100101.png`} alt={100101}></img>
+              </div>
+              <div className="bg-blue-400">
+                <img className="" src={`${process.env.PUBLIC_URL}/images/umamusume/100101.png`} alt={100101}></img>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
+  );
 }
 
 export default DetailUmamusume;
