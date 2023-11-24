@@ -5,10 +5,14 @@ module.exports = {
     extend: {
       minWidth: {
         280: '280px',
+        360: '360px',
         640: '640px',
+        720: '720px',
+        800: '800px',
       },
       minHeight: {
         280: '280px',
+        360: '360px',
       },
     },
   },
