@@ -3,6 +3,7 @@ import ListUmamusume from './pages/ListUmamusume';
 
 import Main from './pages/Main';
 import DetailUmamusume from './pages/DetailUmamusume';
+import SvgSpeed from './pages/SvgSpeed';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path="/umamusume">
         <Route path=":id" element={<DetailUmamusume />}></Route>
       </Route>
+      <Route path="/svg/speed" element={<SvgSpeed />}></Route>
     </Routes>
   );
 }
