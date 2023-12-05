@@ -16,7 +16,7 @@ function SvgAptitudeStamina() {
                 alignmentBaseline="middle"
                 textAnchor="middle"
                 lengthAdjust="spacing"
-                fontSize="6rem"
+                fontSize="5rem"
                 fontWeight="bold"
                 fontFamily="Arial, Helvetica, sans-serif"
                 style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}
