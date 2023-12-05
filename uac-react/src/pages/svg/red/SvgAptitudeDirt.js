@@ -1,11 +1,11 @@
-function SvgSpeed() {
+function SvgAptitudeDirt() {
   return (
     <>
       <div>
         <div className="relative w-[300px] h-[200px]">
           <div className="absolute">
             <svg height="100%">
-              <polygon points="35,10 10,135 265,135 290,10" style={{ fill: `#40b4ec`, stroke: `#40b4ec`, strokeWidth: 5, strokeLinejoin: `round` }} />
+              <polygon points="35,10 10,135 265,135 290,10" style={{ fill: `#FF83B8`, stroke: `#FF83B8`, strokeWidth: 5, strokeLinejoin: `round` }} />
             </svg>
           </div>
           <div className="absolute">
@@ -15,30 +15,30 @@ function SvgSpeed() {
                 y="50%"
                 alignmentBaseline="middle"
                 textAnchor="middle"
-                textLength="100%"
+                // textLength="100%"
                 lengthAdjust="spacing"
                 fontSize="115px"
                 fontWeight="bold"
                 fontFamily="Arial, Helvetica, sans-serif"
-                style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}
+                style={{ fill: `#fefefe`, stroke: `#F44992`, strokeWidth: `5`, strokeLinejoin: `round` }}
               >
-                스피드
+                장거리
               </text>
             </svg>
           </div>
           <div className="absolute w-[95px] left-[5px] top-[100px]">
             <svg width="100%" viewBox="0 0 130 130">
-              <polygon points="65,5 85,45 125,50 95,80 105,125 65,105 25,125 35,80 5,50 45,45" style={{ fill: `#fed100`, stroke: `#189bdb`, strokeWidth: 5, strokeLinejoin: `round` }} />
+              <polygon points="65,5 85,45 125,50 95,80 105,125 65,105 25,125 35,80 5,50 45,45" style={{ fill: `#fed100`, stroke: `#F44992`, strokeWidth: 5, strokeLinejoin: `round` }} />
             </svg>
           </div>
           <div className="absolute w-[95px] left-[90px] top-[100px]">
             <svg width="100%" viewBox="0 0 130 130">
-              <polygon points="65,5 85,45 125,50 95,80 105,125 65,105 25,125 35,80 5,50 45,45" style={{ fill: `#fed100`, stroke: `#189bdb`, strokeWidth: 5, strokeLinejoin: `round` }} />
+              <polygon points="65,5 85,45 125,50 95,80 105,125 65,105 25,125 35,80 5,50 45,45" style={{ fill: `#fed100`, stroke: `#F44992`, strokeWidth: 5, strokeLinejoin: `round` }} />
             </svg>
           </div>
           <div className="absolute w-[95px] left-[175px] top-[100px]">
             <svg width="100%" viewBox="0 0 130 130">
-              <polygon points="65,5 85,45 125,50 95,80 105,125 65,105 25,125 35,80 5,50 45,45" style={{ fill: `#fed100`, stroke: `#189bdb`, strokeWidth: 5, strokeLinejoin: `round` }} />
+              <polygon points="65,5 85,45 125,50 95,80 105,125 65,105 25,125 35,80 5,50 45,45" style={{ fill: `#fed100`, stroke: `#F44992`, strokeWidth: 5, strokeLinejoin: `round` }} />
             </svg>
           </div>
         </div>
@@ -47,4 +47,4 @@ function SvgSpeed() {
   );
 }
 
-export default SvgSpeed;
+export default SvgAptitudeDirt;
