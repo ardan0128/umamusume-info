@@ -17,6 +17,10 @@ import SvgAptitudeShort from './pages/svg/red/distance/SvgAptitudeShort';
 import SvgAptitudeMile from './pages/svg/red/distance/SvgAptitudeMile';
 import SvgAptitudeMedium from './pages/svg/red/distance/SvgAptitudeMedium';
 import SvgAptitudeLong from './pages/svg/red/distance/SvgAptitudeLong';
+import SvgAptitudeRunner from './pages/svg/red/strategy/SvgAptitudeRunner';
+import SvgAptitudeLeader from './pages/svg/red/strategy/SvgAptitudeLeader';
+import SvgAptitudeBetweener from './pages/svg/red/strategy/SvgAptitudeBetweener';
+import SvgAptitudeChaser from './pages/svg/red/strategy/SvgAptitudeChaser';
 
 function App() {
   return (
@@ -41,6 +45,10 @@ function App() {
         <Route path="mile" element={<SvgAptitudeMile />}></Route>
         <Route path="Medium" element={<SvgAptitudeMedium />}></Route>
         <Route path="Long" element={<SvgAptitudeLong />}></Route>
+        <Route path="runner" element={<SvgAptitudeRunner />}></Route>
+        <Route path="leader" element={<SvgAptitudeLeader />}></Route>
+        <Route path="betweener" element={<SvgAptitudeBetweener />}></Route>
+        <Route path="chaser" element={<SvgAptitudeChaser />}></Route>
       </Route>
     </Routes>
   );
