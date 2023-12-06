@@ -3,25 +3,50 @@ function SvgAptitudeSpeed() {
     <>
       <div>
         <div className="relative w-[300px] h-[200px]">
-          <div className="absolute">
+          <div className="absolute h-[100%]">
             <svg height="100%">
               <polygon points="35,10 10,135 265,135 290,10" style={{ fill: `#40b4ec`, stroke: `#40b4ec`, strokeWidth: 5, strokeLinejoin: `round` }} />
             </svg>
           </div>
-          <div className="absolute">
-            <svg>
+          <div className="absolute w-[120px] h-[120px] left-[-10px] top-[5px]">
+            <svg width="100%" height="100%" viewBox="0 0 120 120">
               <text
-                x="50%"
-                y="50%"
-                alignmentBaseline="middle"
-                textAnchor="middle"
-                lengthAdjust="spacing"
-                fontSize="7rem"
+                x="10"
+                y="96"
+                fontSize="120px"
                 fontWeight="bold"
                 fontFamily="Arial, Helvetica, sans-serif"
                 style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}
               >
-                스피드
+                스
+              </text>
+            </svg>
+          </div>
+          <div className="absolute w-[120px] h-[120px] left-[90px] top-[5px]">
+            <svg width="100%" height="100%" viewBox="0 0 120 120">
+              <text
+                x="10"
+                y="102"
+                fontSize="120px"
+                fontWeight="bold"
+                fontFamily="Arial, Helvetica, sans-serif"
+                style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}
+              >
+                피
+              </text>
+            </svg>
+          </div>
+          <div className="absolute w-[120px] h-[120px] left-[180px] top-[5px]">
+            <svg width="100%" height="100%" viewBox="0 0 120 120">
+              <text
+                x="10"
+                y="100"
+                fontSize="120px"
+                fontWeight="bold"
+                fontFamily="Arial, Helvetica, sans-serif"
+                style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}
+              >
+                드
               </text>
             </svg>
           </div>

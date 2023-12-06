@@ -8,21 +8,24 @@ function SvgAptitudeWisdom() {
               <polygon points="35,10 10,135 265,135 290,10" style={{ fill: `#40b4ec`, stroke: `#40b4ec`, strokeWidth: 5, strokeLinejoin: `round` }} />
             </svg>
           </div>
-          <div className="absolute">
-            <svg>
+          <div className="absolute w-[120px] h-[120px] left-[40px] top-[5px]">
+            <svg width="100%" height="100%" viewBox="0 0 120 120">
               <text
-                x="50%"
-                y="50%"
-                alignmentBaseline="middle"
-                textAnchor="middle"
-                textLength="100%"
-                lengthAdjust="spacing"
-                fontSize="5rem"
+                x="13"
+                y="95"
+                fontSize="110px"
                 fontWeight="bold"
                 fontFamily="Arial, Helvetica, sans-serif"
                 style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}
               >
-                스태미나
+                지
+              </text>
+            </svg>
+          </div>
+          <div className="absolute w-[120px] h-[120px] left-[140px] top-[5px]">
+            <svg width="100%" height="100%" viewBox="0 0 120 120">
+              <text x="7" y="93" fontSize="110px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}>
+                능
               </text>
             </svg>
           </div>

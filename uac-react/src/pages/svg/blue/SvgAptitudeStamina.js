@@ -8,20 +8,31 @@ function SvgAptitudeStamina() {
               <polygon points="35,10 10,135 265,135 290,10" style={{ fill: `#40b4ec`, stroke: `#40b4ec`, strokeWidth: 5, strokeLinejoin: `round` }} />
             </svg>
           </div>
-          <div className="absolute">
-            <svg>
-              <text
-                x="50%"
-                y="50%"
-                alignmentBaseline="middle"
-                textAnchor="middle"
-                lengthAdjust="spacing"
-                fontSize="5rem"
-                fontWeight="bold"
-                fontFamily="Arial, Helvetica, sans-serif"
-                style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}
-              >
-                스태미나
+          <div className="absolute w-[120px] h-[120px] left-[-5px] top-[0px]">
+            <svg width="100%" height="100%" viewBox="0 0 120 120">
+              <text x="10" y="96" fontSize="90px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}>
+                스
+              </text>
+            </svg>
+          </div>
+          <div className="absolute w-[120px] h-[120px] left-[65px] top-[0px]">
+            <svg width="100%" height="100%" viewBox="0 0 120 120">
+              <text x="10" y="96" fontSize="90px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}>
+                태
+              </text>
+            </svg>
+          </div>
+          <div className="absolute w-[120px] h-[120px] left-[135px] top-[0px]">
+            <svg width="100%" height="100%" viewBox="0 0 120 120">
+              <text x="10" y="96" fontSize="90px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}>
+                미
+              </text>
+            </svg>
+          </div>
+          <div className="absolute w-[120px] h-[120px] left-[205px] top-[0px]">
+            <svg width="100%" height="100%" viewBox="0 0 120 120">
+              <text x="10" y="96" fontSize="90px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}>
+                나
               </text>
             </svg>
           </div>
