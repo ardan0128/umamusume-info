@@ -13,6 +13,10 @@ import SvgAptitudeGuts from './pages/svg/blue/SvgAptitudeGuts';
 import SvgAptitudeWisdom from './pages/svg/blue/SvgAptitudeWisdom';
 import SvgAptitudeTurf from './pages/svg/red/surface/SvgAptitudeTurf';
 import SvgAptitudeDirt from './pages/svg/red/surface/SvgAptitudeDirt';
+import SvgAptitudeShort from './pages/svg/red/distance/SvgAptitudeShort';
+import SvgAptitudeMile from './pages/svg/red/distance/SvgAptitudeMile';
+import SvgAptitudeMedium from './pages/svg/red/distance/SvgAptitudeMedium';
+import SvgAptitudeLong from './pages/svg/red/distance/SvgAptitudeLong';
 
 function App() {
   return (
@@ -33,6 +37,10 @@ function App() {
         <Route path="wisdom" element={<SvgAptitudeWisdom />}></Route>
         <Route path="turf" element={<SvgAptitudeTurf />}></Route>
         <Route path="dirt" element={<SvgAptitudeDirt />}></Route>
+        <Route path="short" element={<SvgAptitudeShort />}></Route>
+        <Route path="mile" element={<SvgAptitudeMile />}></Route>
+        <Route path="Medium" element={<SvgAptitudeMedium />}></Route>
+        <Route path="Long" element={<SvgAptitudeLong />}></Route>
       </Route>
     </Routes>
   );

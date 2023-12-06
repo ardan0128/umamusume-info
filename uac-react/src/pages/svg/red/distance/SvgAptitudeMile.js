@@ -8,21 +8,24 @@ function SvgAptitudeMile() {
               <polygon points="35,10 10,135 265,135 290,10" style={{ fill: `#FF83B8`, stroke: `#FF83B8`, strokeWidth: 5, strokeLinejoin: `round` }} />
             </svg>
           </div>
-          <div className="absolute">
-            <svg>
+          <div className="absolute w-[120px] h-[120px] left-[45px] top-[5px]">
+            <svg width="100%" height="100%" viewBox="0 0 120 120">
               <text
-                x="50%"
-                y="50%"
-                alignmentBaseline="middle"
-                textAnchor="middle"
-                // textLength="100%"
-                lengthAdjust="spacing"
-                fontSize="115px"
+                x="10"
+                y="95"
+                fontSize="110px"
                 fontWeight="bold"
                 fontFamily="Arial, Helvetica, sans-serif"
                 style={{ fill: `#fefefe`, stroke: `#F44992`, strokeWidth: `5`, strokeLinejoin: `round` }}
               >
-                장거리
+                마
+              </text>
+            </svg>
+          </div>
+          <div className="absolute w-[120px] h-[120px] left-[160px] top-[5px]">
+            <svg width="100%" height="100%" viewBox="0 0 120 120">
+              <text x="5" y="95" fontSize="110px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#F44992`, strokeWidth: `5`, strokeLinejoin: `round` }}>
+                일
               </text>
             </svg>
           </div>
