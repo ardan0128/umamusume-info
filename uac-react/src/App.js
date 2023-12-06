@@ -11,6 +11,8 @@ import SvgAptitudeStamina from './pages/svg/blue/SvgAptitudeStamina';
 import SvgAptitudePower from './pages/svg/blue/SvgAptitudePower';
 import SvgAptitudeGuts from './pages/svg/blue/SvgAptitudeGuts';
 import SvgAptitudeWisdom from './pages/svg/blue/SvgAptitudeWisdom';
+import SvgAptitudeTurf from './pages/svg/red/surface/SvgAptitudeTurf';
+import SvgAptitudeDirt from './pages/svg/red/surface/SvgAptitudeDirt';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
         <Route path="power" element={<SvgAptitudePower />}></Route>
         <Route path="guts" element={<SvgAptitudeGuts />}></Route>
         <Route path="wisdom" element={<SvgAptitudeWisdom />}></Route>
+        <Route path="turf" element={<SvgAptitudeTurf />}></Route>
+        <Route path="dirt" element={<SvgAptitudeDirt />}></Route>
       </Route>
     </Routes>
   );
