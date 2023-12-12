@@ -4,13 +4,13 @@ function SvgAptitudeRed() {
       <div>
         <svg viewBox="0 0 300 200">
           <polygon points="30,10 10,140 250,140 270,10" style={{ fill: `#ff83b8`, stroke: `#ff83b8`, strokeWidth: 5, strokeLinejoin: `round` }} />
-          <text x="5" y="100" fontSize="110px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#f44992`, strokeWidth: `5`, strokeLinejoin: `round` }}>
-            중
+          <text x="3" y="105" fontSize="110px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#f44992`, strokeWidth: `5`, strokeLinejoin: `round` }}>
+            단
           </text>
-          <text x="100" y="100" fontSize="110px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#f44992`, strokeWidth: `5`, strokeLinejoin: `round` }}>
+          <text x="99" y="105" fontSize="110px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#f44992`, strokeWidth: `5`, strokeLinejoin: `round` }}>
             거
           </text>
-          <text x="190" y="100" fontSize="110px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#f44992`, strokeWidth: `5`, strokeLinejoin: `round` }}>
+          <text x="185" y="105" fontSize="110px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#f44992`, strokeWidth: `5`, strokeLinejoin: `round` }}>
             리
           </text>
           <polygon
