@@ -2,56 +2,33 @@ function SvgAptitudeStamina() {
   return (
     <>
       <div>
-        <div className="relative w-[300px] h-[200px]">
-          <div className="absolute">
-            <svg height="100%">
-              <polygon points="35,10 10,135 265,135 290,10" style={{ fill: `#40b4ec`, stroke: `#40b4ec`, strokeWidth: 5, strokeLinejoin: `round` }} />
-            </svg>
-          </div>
-          <div className="absolute w-[120px] h-[120px] left-[-5px] top-[0px]">
-            <svg width="100%" height="100%" viewBox="0 0 120 120">
-              <text x="10" y="96" fontSize="90px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}>
-                스
-              </text>
-            </svg>
-          </div>
-          <div className="absolute w-[120px] h-[120px] left-[65px] top-[0px]">
-            <svg width="100%" height="100%" viewBox="0 0 120 120">
-              <text x="10" y="96" fontSize="90px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}>
-                태
-              </text>
-            </svg>
-          </div>
-          <div className="absolute w-[120px] h-[120px] left-[135px] top-[0px]">
-            <svg width="100%" height="100%" viewBox="0 0 120 120">
-              <text x="10" y="96" fontSize="90px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}>
-                미
-              </text>
-            </svg>
-          </div>
-          <div className="absolute w-[120px] h-[120px] left-[205px] top-[0px]">
-            <svg width="100%" height="100%" viewBox="0 0 120 120">
-              <text x="10" y="96" fontSize="90px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}>
-                나
-              </text>
-            </svg>
-          </div>
-          <div className="absolute w-[95px] left-[5px] top-[100px]">
-            <svg width="100%" viewBox="0 0 130 130">
-              <polygon points="65,5 85,45 125,50 95,80 105,125 65,105 25,125 35,80 5,50 45,45" style={{ fill: `#fed100`, stroke: `#189bdb`, strokeWidth: 5, strokeLinejoin: `round` }} />
-            </svg>
-          </div>
-          <div className="absolute w-[95px] left-[90px] top-[100px]">
-            <svg width="100%" viewBox="0 0 130 130">
-              <polygon points="65,5 85,45 125,50 95,80 105,125 65,105 25,125 35,80 5,50 45,45" style={{ fill: `#fed100`, stroke: `#189bdb`, strokeWidth: 5, strokeLinejoin: `round` }} />
-            </svg>
-          </div>
-          <div className="absolute w-[95px] left-[175px] top-[100px]">
-            <svg width="100%" viewBox="0 0 130 130">
-              <polygon points="65,5 85,45 125,50 95,80 105,125 65,105 25,125 35,80 5,50 45,45" style={{ fill: `#fed100`, stroke: `#189bdb`, strokeWidth: 5, strokeLinejoin: `round` }} />
-            </svg>
-          </div>
-        </div>
+        <svg viewBox="0 0 300 200">
+          <polygon points="30,10 10,140 250,140 270,10" style={{ fill: `#40b4ec`, stroke: `#40b4ec`, strokeWidth: 5, strokeLinejoin: `round` }} />
+          <text x="3" y="100" fontSize="90px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}>
+            스
+          </text>
+          <text x="71" y="100" fontSize="90px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}>
+            태
+          </text>
+          <text x="136" y="100" fontSize="90px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}>
+            미
+          </text>
+          <text x="200" y="100" fontSize="90px" fontWeight="bold" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#fefefe`, stroke: `#189bdb`, strokeWidth: `5`, strokeLinejoin: `round` }}>
+            나
+          </text>
+          <polygon
+            points="50,110 65,132.5 90,140 72.5,160 77.5,190 50,177.5 22.5,190 27.5,160 10,140 35,132.5"
+            style={{ fill: `#fed100`, stroke: `#189bdb`, strokeWidth: 5, strokeLinejoin: `round` }}
+          />
+          <polygon
+            points="130,110 145,132.5 170,140 152.5,160 157.5,190 130,177.5 102.5,190 107.5,160 90,140 115,132.5"
+            style={{ fill: `#fed100`, stroke: `#189bdb`, strokeWidth: 5, strokeLinejoin: `round` }}
+          />
+          <polygon
+            points="210,110 225,132.5 250,140 232.5,160 237.5,190 210,177.5 182.5,190 187.5,160 170,140 195,132.5"
+            style={{ fill: `#fed100`, stroke: `#189bdb`, strokeWidth: 5, strokeLinejoin: `round` }}
+          />
+        </svg>
       </div>
     </>
   );
