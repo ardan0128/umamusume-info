@@ -1,15 +1,19 @@
-import SvgAptitudeGuts from '../../pages/svg/blue/SvgAptitudeGuts';
-import SvgAptitudePower from '../../pages/svg/blue/SvgAptitudePower';
-import SvgAptitudeSpeed from '../../pages/svg/blue/SvgAptitudeSpeed';
-import SvgAptitudeStamina from '../../pages/svg/blue/SvgAptitudeStamina';
-import SvgAptitudeWisdom from '../../pages/svg/blue/SvgAptitudeWisdom';
-import SvgAptitudeGreen from '../../pages/svg/green/SvgAptitudeGreen';
-import SvgAptitudeLong from '../../pages/svg/red/distance/SvgAptitudeLong';
-import SvgAptitudeMedium from '../../pages/svg/red/distance/SvgAptitudeMedium';
-import SvgAptitudeShort from '../../pages/svg/red/distance/SvgAptitudeShort';
-import SvgAptitudeRunner from '../../pages/svg/red/strategy/SvgAptitudeRunner';
-import SvgAptitudeDirt from '../../pages/svg/red/surface/SvgAptitudeDirt';
-import SvgAptitudeTurf from '../../pages/svg/red/surface/SvgAptitudeTurf';
+import SvgAptitudeSpeed from '../svg/blue/SvgAptitudeSpeed';
+import SvgAptitudeStamina from '../svg/blue/SvgAptitudeStamina';
+import SvgAptitudePower from '../svg/blue/SvgAptitudePower';
+import SvgAptitudeGuts from '../svg/blue/SvgAptitudeGuts';
+import SvgAptitudeWisdom from '../svg/blue/SvgAptitudeWisdom';
+
+import SvgAptitudeDirt from '../svg/red/surface/SvgAptitudeDirt';
+import SvgAptitudeTurf from '../svg/red/surface/SvgAptitudeTurf';
+
+import SvgAptitudeShort from '../svg/red/distance/SvgAptitudeShort';
+import SvgAptitudeMedium from '../svg/red/distance/SvgAptitudeMedium';
+import SvgAptitudeLong from '../svg/red/distance/SvgAptitudeLong';
+
+import SvgAptitudeRunner from '../svg/red/strategy/SvgAptitudeRunner';
+
+import SvgAptitudeGreen from '../svg/green/SvgAptitudeGreen';
 
 function ParentUmamusume() {
   return (
