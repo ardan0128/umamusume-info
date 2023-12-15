@@ -1,3 +1,12 @@
+import SvgTurf from '../components/svg/aptitude/surface/SvgTurf';
+import SvgDirt from '../components/svg/aptitude/surface/SvgDirt';
+import SvgShort from '../components/svg/aptitude/distance/SvgShort';
+import SvgMile from '../components/svg/aptitude/distance/SvgMile';
+import SvgMedium from '../components/svg/aptitude/distance/SvgMedium';
+import SvgLong from '../components/svg/aptitude/distance/SvgLong';
+import SvgRunner from '../components/svg/aptitude/strategy/SvgRunner';
+import SvgLeader from '../components/svg/aptitude/strategy/SvgLeader';
+
 function Detailumamusume(props) {
   return (
     <>
@@ -64,7 +73,7 @@ function Detailumamusume(props) {
         </div>
       </div>
 
-      <div className="p-8 w-full min-w-640">
+      <div className="p-4 w-full min-w-640">
         <div className="flex justify-center items-center">
           <div className="min-w-[16.666667%] w-1/6">
             <img src={`${process.env.PUBLIC_URL}/images/umamusume/${props.id}.png`} alt={props.id}></img>
@@ -74,7 +83,45 @@ function Detailumamusume(props) {
             <div className="flex-auto flex-row text-center text-6xl">{props.name}</div>
           </div>
         </div>
-        <div className="grid"></div>
+      </div>
+      <div className="p-4 w-full min-w-640 flex justify-center items-center">
+        <div className="p-1 w-3/4 grid grid-cols-5 gap-2">
+          <div className="text-center align-middle text-lg line-clamp-1">경기장 적성</div>
+          <div>
+            <SvgTurf></SvgTurf>
+          </div>
+          <div>
+            <SvgDirt></SvgDirt>
+          </div>
+          <div></div>
+          <div></div>
+          <div className="text-lg">거리 적성</div>
+          <div>
+            <SvgShort></SvgShort>
+          </div>
+          <div>
+            <SvgMile></SvgMile>
+          </div>
+          <div>
+            <SvgMedium></SvgMedium>
+          </div>
+          <div>
+            <SvgLong></SvgLong>
+          </div>
+          <div className="text-lg">각질 적성</div>
+          <div>
+            <SvgRunner></SvgRunner>
+          </div>
+          <div>
+            <SvgLeader></SvgLeader>
+          </div>
+          <div>
+            <SvgRunner></SvgRunner>
+          </div>
+          <div>
+            <SvgLeader></SvgLeader>
+          </div>
+        </div>
       </div>
     </>
   );

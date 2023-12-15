@@ -28,7 +28,6 @@ function SvgGather() {
           <div>
             <SvgDirt></SvgDirt>
           </div>
-
           <div></div>
           <div></div>
           <div>거리 적성</div>

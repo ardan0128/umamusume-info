@@ -18,7 +18,7 @@ import SvgAptitudeGreen from '../svg/green/SvgAptitudeGreen';
 function ParentUmamusume() {
   return (
     <>
-      <div className="p-8 w-full min-w-640 flex justify-center items-center">
+      <div className="p-4 pt-0 w-full min-w-640 flex justify-center items-center">
         <div className="grid grid-cols-2 gap-4 w-3/4">
           <div className="border border-sky-400 w-full">
             <div className="flex relative aspect-square justify-center items-center">
