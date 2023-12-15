@@ -6,6 +6,9 @@ import SvgMedium from '../components/svg/aptitude/distance/SvgMedium';
 import SvgLong from '../components/svg/aptitude/distance/SvgLong';
 import SvgRunner from '../components/svg/aptitude/strategy/SvgRunner';
 import SvgLeader from '../components/svg/aptitude/strategy/SvgLeader';
+import SvgSurface from '../components/svg/aptitude/surface/SvgSurface';
+import SvgDistance from '../components/svg/aptitude/distance/SvgDistance';
+import SvgStrategy from '../components/svg/aptitude/strategy/SvgStrategy';
 
 function SvgGather() {
   return (
@@ -18,10 +21,15 @@ function SvgGather() {
       <SvgLong></SvgLong>
       <SvgRunner></SvgRunner>
       <SvgLeader></SvgLeader>
+      <SvgSurface></SvgSurface>
+      <SvgDistance></SvgDistance>
+      <SvgStrategy></SvgStrategy>
 
-      <div className="p-8 w-full min-w-640 flex justify-center items-center">
-        <div className="p-1 w-full grid grid-cols-5 gap-4">
-          <div>경기장 적성</div>
+      <div className="p-4 w-full min-w-640 flex justify-center items-center">
+        <div className="p-1 w-3/4 grid grid-cols-5 gap-2">
+          <div>
+            <SvgSurface></SvgSurface>
+          </div>
           <div>
             <SvgTurf></SvgTurf>
           </div>
@@ -30,7 +38,9 @@ function SvgGather() {
           </div>
           <div></div>
           <div></div>
-          <div>거리 적성</div>
+          <div>
+            <SvgDistance></SvgDistance>
+          </div>
           <div>
             <SvgShort></SvgShort>
           </div>
@@ -43,7 +53,9 @@ function SvgGather() {
           <div>
             <SvgLong></SvgLong>
           </div>
-          <div>각질 적성</div>
+          <div>
+            <SvgStrategy></SvgStrategy>
+          </div>
           <div>
             <SvgRunner></SvgRunner>
           </div>

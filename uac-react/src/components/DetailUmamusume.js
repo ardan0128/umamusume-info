@@ -6,6 +6,9 @@ import SvgMedium from '../components/svg/aptitude/distance/SvgMedium';
 import SvgLong from '../components/svg/aptitude/distance/SvgLong';
 import SvgRunner from '../components/svg/aptitude/strategy/SvgRunner';
 import SvgLeader from '../components/svg/aptitude/strategy/SvgLeader';
+import SvgDistance from './svg/aptitude/distance/SvgDistance';
+import SvgSurface from './svg/aptitude/surface/SvgSurface';
+import SvgStrategy from './svg/aptitude/strategy/SvgStrategy';
 
 function Detailumamusume(props) {
   return (
@@ -86,7 +89,9 @@ function Detailumamusume(props) {
       </div>
       <div className="p-4 w-full min-w-640 flex justify-center items-center">
         <div className="p-1 w-3/4 grid grid-cols-5 gap-2">
-          <div className="text-center align-middle text-lg line-clamp-1">경기장 적성</div>
+          <div>
+            <SvgSurface></SvgSurface>
+          </div>
           <div>
             <SvgTurf></SvgTurf>
           </div>
@@ -95,7 +100,9 @@ function Detailumamusume(props) {
           </div>
           <div></div>
           <div></div>
-          <div className="text-lg">거리 적성</div>
+          <div>
+            <SvgDistance></SvgDistance>
+          </div>
           <div>
             <SvgShort></SvgShort>
           </div>
@@ -108,7 +115,9 @@ function Detailumamusume(props) {
           <div>
             <SvgLong></SvgLong>
           </div>
-          <div className="text-lg">각질 적성</div>
+          <div>
+            <SvgStrategy></SvgStrategy>
+          </div>
           <div>
             <SvgRunner></SvgRunner>
           </div>
