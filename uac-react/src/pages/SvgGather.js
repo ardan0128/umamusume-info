@@ -18,6 +18,47 @@ function SvgGather() {
       <SvgLong></SvgLong>
       <SvgRunner></SvgRunner>
       <SvgLeader></SvgLeader>
+
+      <div className="p-8 w-full min-w-640 flex justify-center items-center">
+        <div className="p-1 w-full grid grid-cols-5 gap-4">
+          <div>경기장 적성</div>
+          <div>
+            <SvgTurf></SvgTurf>
+          </div>
+          <div>
+            <SvgDirt></SvgDirt>
+          </div>
+
+          <div></div>
+          <div></div>
+          <div>거리 적성</div>
+          <div>
+            <SvgShort></SvgShort>
+          </div>
+          <div>
+            <SvgMile></SvgMile>
+          </div>
+          <div>
+            <SvgMedium></SvgMedium>
+          </div>
+          <div>
+            <SvgLong></SvgLong>
+          </div>
+          <div>각질 적성</div>
+          <div>
+            <SvgRunner></SvgRunner>
+          </div>
+          <div>
+            <SvgLeader></SvgLeader>
+          </div>
+          <div>
+            <SvgRunner></SvgRunner>
+          </div>
+          <div>
+            <SvgLeader></SvgLeader>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
