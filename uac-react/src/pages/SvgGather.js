@@ -9,6 +9,7 @@ import SvgLeader from '../components/svg/aptitude/strategy/SvgLeader';
 import SvgSurface from '../components/svg/aptitude/surface/SvgSurface';
 import SvgDistance from '../components/svg/aptitude/distance/SvgDistance';
 import SvgStrategy from '../components/svg/aptitude/strategy/SvgStrategy';
+import SvgParent from '../components/svg/umamusume/SvgParent';
 
 function SvgGather() {
   return (
@@ -70,6 +71,8 @@ function SvgGather() {
           </div>
         </div>
       </div>
+
+      <SvgParent></SvgParent>
     </>
   );
 }
