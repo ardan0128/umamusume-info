@@ -10,6 +10,7 @@ import SvgSurface from '../components/svg/aptitude/surface/SvgSurface';
 import SvgDistance from '../components/svg/aptitude/distance/SvgDistance';
 import SvgStrategy from '../components/svg/aptitude/strategy/SvgStrategy';
 import SvgParent from '../components/svg/umamusume/SvgParent';
+import SvgPlus from '../components/svg/icon/SvgPlus';
 
 function SvgGather() {
   return (
@@ -73,6 +74,7 @@ function SvgGather() {
       </div>
 
       <SvgParent></SvgParent>
+      <SvgPlus></SvgPlus>
     </>
   );
 }
