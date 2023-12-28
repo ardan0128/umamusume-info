@@ -41,7 +41,7 @@ export default function Plus() {
         </filter>
       </defs>
 
-      <circle cx={256} cy={256} r={256} fill="url(#parentEmpty)" filter="url(#insetShadow)" />
+      <circle cx={256} cy={256} r={251} stroke="#E4E4E4" strokeWidth={5} fill="url(#parentEmpty)" filter="url(#insetShadow)" />
       <polygon points="230,180 230,230 180,230 180,270 230,270 230,320 270,320 270,270 320,270 320,230 270,230 270,180" fill="url(#plusIcon)" filter="url(#plusShadow)"></polygon>
     </svg>
   );

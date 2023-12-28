@@ -4,6 +4,7 @@ import ListUmamusume from './pages/ListUmamusume';
 import Main from './pages/Main';
 import DetailUmamusume from './pages/DetailUmamusume';
 import SvgGather from './pages/SvgGather';
+import ModalTest from './pages/ModalTest';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       </Route>
       <Route path="/svg">
         <Route path="gather" element={<SvgGather />}></Route>
+      </Route>
+      <Route path="/modal">
+        <Route path="test" element={<ModalTest></ModalTest>}></Route>
       </Route>
     </Routes>
   );

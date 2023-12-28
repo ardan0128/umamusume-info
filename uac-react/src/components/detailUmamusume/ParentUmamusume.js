@@ -76,12 +76,12 @@ function ParentUmamusume() {
 
           <div className="border-2 border-pink-400 rounded w-full">
             <div className="flex relative aspect-square justify-center items-center">
-              <div className="absolute w-1/4 h-1/2 ml-[15%] flex">
+              <div className="absolute w-1/4 h-1/2 flex left-[45.5%]">
                 <div className="w-1/2 h-1/2 border-b-2 border-gray-400"></div>
                 <div className="w-1/2 h-full border-t-2 border-b-2 border-l-2 border-gray-400"></div>
               </div>
               <div className="absolute w-[48%] left-[4%]">
-                <div className="bg-white border border-gray-400 rounded-full">
+                <div className="rounded-full cursor-pointer active:ring-pink-400">
                   {/* <SvgParent id="100201"></SvgParent> */}
                   <SvgPlus></SvgPlus>
                 </div>
@@ -96,7 +96,7 @@ function ParentUmamusume() {
                 </div> */}
               </div>
               <div className="absolute w-[32%] top-[10%] right-[4%]">
-                <div className="bg-white border border-gray-400 rounded-full">
+                <div className="rounded-full">
                   <SvgPlus></SvgPlus>
                   {/* <SvgParent id="100301"></SvgParent> */}
                 </div>
@@ -111,7 +111,7 @@ function ParentUmamusume() {
                 </div> */}
               </div>
               <div className="absolute w-[32%] bottom-[10%] right-[4%]">
-                <div className="bg-white border border-gray-400 rounded-full">
+                <div className="rounded-full">
                   <SvgPlus></SvgPlus>
                   {/* <SvgParent id="100401"></SvgParent> */}
                 </div>
