@@ -15,6 +15,7 @@ import SvgAptitudeRunner from '../svg/red/strategy/SvgAptitudeRunner';
 
 import SvgAptitudeGreen from '../svg/green/SvgAptitudeGreen';
 import SvgParent from '../svg/umamusume/SvgParent';
+import SvgPlus from '../svg/icon/SvgPlus';
 
 function ParentUmamusume() {
   return (
@@ -81,9 +82,10 @@ function ParentUmamusume() {
               </div>
               <div className="absolute w-[48%] left-[4%]">
                 <div className="bg-white border border-gray-400 rounded-full">
-                  <SvgParent id="100201"></SvgParent>
+                  {/* <SvgParent id="100201"></SvgParent> */}
+                  <SvgPlus></SvgPlus>
                 </div>
-                <div className="absolute w-[36%] -bottom-3 left-0">
+                {/* <div className="absolute w-[36%] -bottom-3 left-0">
                   <SvgAptitudeGuts></SvgAptitudeGuts>
                 </div>
                 <div className="absolute w-[36%] -bottom-3 left-[32.5%]">
@@ -91,14 +93,14 @@ function ParentUmamusume() {
                 </div>
                 <div className="absolute w-[36%] -bottom-3 right-0">
                   <SvgAptitudeGreen></SvgAptitudeGreen>
-                </div>
+                </div> */}
               </div>
               <div className="absolute w-[32%] top-[10%] right-[4%]">
                 <div className="bg-white border border-gray-400 rounded-full">
-                  <SvgParent id="100301"></SvgParent>
+                  <SvgPlus></SvgPlus>
+                  {/* <SvgParent id="100301"></SvgParent> */}
                 </div>
-
-                <div className="absolute w-[36%] -bottom-2 left-0">
+                {/* <div className="absolute w-[36%] -bottom-2 left-0">
                   <SvgAptitudeWisdom></SvgAptitudeWisdom>
                 </div>
                 <div className="absolute w-[36%] -bottom-2 left-[32.5%]">
@@ -106,14 +108,14 @@ function ParentUmamusume() {
                 </div>
                 <div className="absolute w-[36%] -bottom-2 right-0">
                   <SvgAptitudeGreen></SvgAptitudeGreen>
-                </div>
+                </div> */}
               </div>
               <div className="absolute w-[32%] bottom-[10%] right-[4%]">
                 <div className="bg-white border border-gray-400 rounded-full">
-                  <SvgParent id="100401"></SvgParent>
+                  <SvgPlus></SvgPlus>
+                  {/* <SvgParent id="100401"></SvgParent> */}
                 </div>
-
-                <div className="absolute w-[36%] -bottom-2 left-0">
+                {/* <div className="absolute w-[36%] -bottom-2 left-0">
                   <SvgAptitudeSpeed></SvgAptitudeSpeed>
                 </div>
                 <div className="absolute w-[36%] -bottom-2 left-[32.5%]">
@@ -121,7 +123,7 @@ function ParentUmamusume() {
                 </div>
                 <div className="absolute w-[36%] -bottom-2 right-0">
                   <SvgAptitudeGreen></SvgAptitudeGreen>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
