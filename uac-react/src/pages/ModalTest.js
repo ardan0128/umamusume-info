@@ -11,10 +11,10 @@ export default function ModalTest() {
         <button type="button" onClick={() => setIsModalOpen(!isModalOpen)}>
           button
         </button>
-        <AptitudeModal isOpen={isModalOpen} onClose={() => setIsModalOpen(!isModalOpen)}>
-          <h1>Model Test</h1>
-        </AptitudeModal>
       </div>
+      <AptitudeModal isOpen={isModalOpen} onClose={() => setIsModalOpen(!isModalOpen)}>
+        <h1>Model Test</h1>
+      </AptitudeModal>
     </>
   );
 }
