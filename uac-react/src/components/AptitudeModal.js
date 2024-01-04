@@ -20,7 +20,7 @@ export default function AptitudeModal({ isOpen, onClose }) {
         <div>
           <div className="modal-background" onClick={onClose}></div>
           <div className="modal-container flex flex-col justify-center items-center">
-            <div>Stepper</div>
+            <div>Progress bar</div>
             <div>Title</div>
             <div className="overflow-auto">
               <ul className="m-2 ml-4 mr-4 grid gap-x-2 gap-y-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 ">
