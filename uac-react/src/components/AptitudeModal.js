@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './../styles/modal.css';
 import { getAllUmamusume } from '../data/api/Umamusume';
 import Umamusume from './Umamusume';
+import ModalStepper from './modal/ModalStepper';
 
 export default function AptitudeModal({ isOpen, onClose }) {
   const [loading, setLoading] = useState(true);
@@ -20,10 +21,11 @@ export default function AptitudeModal({ isOpen, onClose }) {
         <div>
           <div className="modal-background" onClick={onClose}></div>
           <div className="modal-container flex flex-col justify-center items-center">
-            <div>Progress bar</div>
-            <div>Title</div>
+            <div>
+              <ModalStepper activeStep={0}></ModalStepper>
+            </div>
             <div className="overflow-auto">
-              <ul className="m-2 ml-4 mr-4 grid gap-x-2 gap-y-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 ">
+              <ul className="m-2 ml-4 mr-4 grid gap-x-2 gap-y-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
                 {loading
                   ? 'loading...'
                   : umamusumes.map(umamusume => {
