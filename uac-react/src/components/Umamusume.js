@@ -1,6 +1,6 @@
 function Umamusume(props) {
   return (
-    <div className="rounded-xl bg-zinc-200 p-4">
+    <div className="rounded-xl bg-zinc-200 p-4 cursor-pointer" onClick={props.onClick}>
       <div>
         <img className="rounded-xl bg-white" src={`${process.env.PUBLIC_URL}/images/umamusume/${props.id}.png`} alt={props.id}></img>
       </div>

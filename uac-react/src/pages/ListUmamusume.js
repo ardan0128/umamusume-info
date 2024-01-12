@@ -2,10 +2,13 @@ import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { getAllUmamusume } from '../data/api/Umamusume';
 import Umamusume from '../components/Umamusume';
+import ModalInfoUmamusume from '../components/modal/ModalInfoUmamusume';
 
 function ListUmamusume() {
   const [loading, setLoading] = useState(true);
   const [umamusumes, setUmamusumes] = useState();
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [umamusume, setUmamusume] = useState();
 
   useEffect(() => {
     getAllUmamusume().then(res => {
@@ -25,15 +28,30 @@ function ListUmamusume() {
               : umamusumes.map(umamusume => {
                   return (
                     <li key={umamusume.id}>
-                      <Link to={`${umamusume.id}`}>
-                        <Umamusume id={umamusume.id} name={umamusume.name}></Umamusume>
-                      </Link>
+                      <Umamusume
+                        id={umamusume.id}
+                        name={umamusume.name}
+                        onClick={() => {
+                          setIsModalOpen(!isModalOpen);
+                          setUmamusume(umamusume.id);
+                        }}
+                      ></Umamusume>
                     </li>
                   );
                 })}
           </ul>
         </div>
       </div>
+      {umamusume ? (
+        <ModalInfoUmamusume
+          umamusumeId={umamusume}
+          isOpen={isModalOpen}
+          onClose={() => {
+            setIsModalOpen(!isModalOpen);
+            setUmamusume(null);
+          }}
+        />
+      ) : null}
     </>
   );
 }

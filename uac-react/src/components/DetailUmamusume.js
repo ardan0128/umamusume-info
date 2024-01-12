@@ -11,6 +11,7 @@ import SvgSurface from './svg/aptitude/surface/SvgSurface';
 import SvgStrategy from './svg/aptitude/strategy/SvgStrategy';
 
 function Detailumamusume(props) {
+  console.log(props);
   return (
     <>
       <div className="p-4 w-full flex justify-center items-center">
