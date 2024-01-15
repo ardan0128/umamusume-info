@@ -1,5 +1,5 @@
-import SvgTurfS from '../components/svg/aptitude/surface/SvgTurfS';
-import SvgDirtS from '../components/svg/aptitude/surface/SvgDirtS';
+import SvgTurfS from '../components/svg/aptitude/surface/turf/SvgTurfS';
+import SvgDirtS from '../components/svg/aptitude/surface/dirt/SvgDirtS';
 import SvgShort from '../components/svg/aptitude/distance/SvgShort';
 import SvgMile from '../components/svg/aptitude/distance/SvgMile';
 import SvgMedium from '../components/svg/aptitude/distance/SvgMedium';
