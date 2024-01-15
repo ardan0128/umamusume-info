@@ -1,4 +1,11 @@
-import SvgTurf from '../components/svg/aptitude/surface/SvgTurf';
+import SvgTurfS from '../components/svg/aptitude/surface/SvgTurfS';
+import SvgTurfA from '../components/svg/aptitude/surface/SvgTurfA';
+import SvgTurfB from '../components/svg/aptitude/surface/SvgTurfB';
+import SvgTurfC from '../components/svg/aptitude/surface/SvgTurfC';
+import SvgTurfD from '../components/svg/aptitude/surface/SvgTurfD';
+import SvgTurfE from '../components/svg/aptitude/surface/SvgTurfE';
+import SvgTurfF from '../components/svg/aptitude/surface/SvgTurfF';
+import SvgTurfG from '../components/svg/aptitude/surface/SvgTurfG';
 import SvgDirt from '../components/svg/aptitude/surface/SvgDirt';
 import SvgShort from '../components/svg/aptitude/distance/SvgShort';
 import SvgMile from '../components/svg/aptitude/distance/SvgMile';
@@ -15,7 +22,14 @@ import SvgPlus from '../components/svg/icon/SvgPlus';
 function SvgGather() {
   return (
     <>
-      <SvgTurf></SvgTurf>
+      <SvgTurfS></SvgTurfS>
+      <SvgTurfA></SvgTurfA>
+      <SvgTurfB></SvgTurfB>
+      <SvgTurfC></SvgTurfC>
+      <SvgTurfD></SvgTurfD>
+      <SvgTurfE></SvgTurfE>
+      <SvgTurfF></SvgTurfF>
+      <SvgTurfG></SvgTurfG>
       <SvgDirt></SvgDirt>
       <SvgShort></SvgShort>
       <SvgMile></SvgMile>
@@ -33,7 +47,7 @@ function SvgGather() {
             <SvgSurface></SvgSurface>
           </div>
           <div>
-            <SvgTurf></SvgTurf>
+            <SvgTurfS></SvgTurfS>
           </div>
           <div>
             <SvgDirt></SvgDirt>

@@ -1,4 +1,4 @@
-import SvgTurf from '../components/svg/aptitude/surface/SvgTurf';
+import SvgTurfS from '../components/svg/aptitude/surface/SvgTurfS';
 import SvgDirt from '../components/svg/aptitude/surface/SvgDirt';
 import SvgShort from '../components/svg/aptitude/distance/SvgShort';
 import SvgMile from '../components/svg/aptitude/distance/SvgMile';
@@ -31,7 +31,7 @@ function Detailumamusume(props) {
             <SvgSurface></SvgSurface>
           </div>
           <div>
-            <SvgTurf></SvgTurf>
+            <SvgTurfS></SvgTurfS>
           </div>
           <div>
             <SvgDirt></SvgDirt>

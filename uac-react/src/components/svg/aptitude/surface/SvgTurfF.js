@@ -1,4 +1,4 @@
-function SvgTurf() {
+function SvgTurfF() {
   return (
     <>
       <svg viewBox="0 0 208 56">
@@ -20,12 +20,12 @@ function SvgTurf() {
             <stop offset="100%" style={{ stopColor: '#956302', stopOpacity: 1 }} />
           </linearGradient>
         </defs>
-        <text x={150} y={46} fontSize="50px" fontFamily="Arial, Helvetica, sans-serif" fontWeight="bold" fill="url(#textGradientS)" stroke="url(#borderGradientS)" strokeWidth={2}>
-          S
+        <text x={150} y={46} fontSize="50px" fontFamily="Arial, Helvetica, sans-serif" fontWeight="bold" fill="url(#textGradientF)" stroke="url(#borderGradientF)" strokeWidth={2}>
+          F
         </text>
       </svg>
     </>
   );
 }
 
-export default SvgTurf;
+export default SvgTurfF;
