@@ -51,6 +51,14 @@ import SvgLongE from '../components/svg/aptitude/distance/long/SvgLongE';
 import SvgLongF from '../components/svg/aptitude/distance/long/SvgLongF';
 import SvgLongG from '../components/svg/aptitude/distance/long/SvgLongG';
 import SvgRunner from '../components/svg/aptitude/strategy/SvgRunner';
+import SvgRunnerS from '../components/svg/aptitude/strategy/runner/SvgRunnerS';
+import SvgRunnerA from '../components/svg/aptitude/strategy/runner/SvgRunnerA';
+import SvgRunnerB from '../components/svg/aptitude/strategy/runner/SvgRunnerB';
+import SvgRunnerC from '../components/svg/aptitude/strategy/runner/SvgRunnerC';
+import SvgRunnerD from '../components/svg/aptitude/strategy/runner/SvgRunnerD';
+import SvgRunnerE from '../components/svg/aptitude/strategy/runner/SvgRunnerE';
+import SvgRunnerF from '../components/svg/aptitude/strategy/runner/SvgRunnerF';
+import SvgRunnerG from '../components/svg/aptitude/strategy/runner/SvgRunnerG';
 import SvgLeader from '../components/svg/aptitude/strategy/SvgLeader';
 import SvgBetweener from '../components/svg/aptitude/strategy/SvgBetweener';
 import SvgChaser from '../components/svg/aptitude/strategy/SvgChaser';
@@ -116,6 +124,14 @@ function SvgGather() {
       <SvgLongF></SvgLongF>
       <SvgLongG></SvgLongG>
       <SvgRunner></SvgRunner>
+      <SvgRunnerS></SvgRunnerS>
+      <SvgRunnerA></SvgRunnerA>
+      <SvgRunnerB></SvgRunnerB>
+      <SvgRunnerC></SvgRunnerC>
+      <SvgRunnerD></SvgRunnerD>
+      <SvgRunnerE></SvgRunnerE>
+      <SvgRunnerF></SvgRunnerF>
+      <SvgRunnerG></SvgRunnerG>
       <SvgLeader></SvgLeader>
       <SvgBetweener></SvgBetweener>
       <SvgChaser></SvgChaser>
