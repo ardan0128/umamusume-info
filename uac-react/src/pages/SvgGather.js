@@ -60,6 +60,14 @@ import SvgRunnerE from '../components/svg/aptitude/strategy/runner/SvgRunnerE';
 import SvgRunnerF from '../components/svg/aptitude/strategy/runner/SvgRunnerF';
 import SvgRunnerG from '../components/svg/aptitude/strategy/runner/SvgRunnerG';
 import SvgLeader from '../components/svg/aptitude/strategy/SvgLeader';
+import SvgLeaderS from '../components/svg/aptitude/strategy/leader/SvgLeaderS';
+import SvgLeaderA from '../components/svg/aptitude/strategy/leader/SvgLeaderA';
+import SvgLeaderB from '../components/svg/aptitude/strategy/leader/SvgLeaderB';
+import SvgLeaderC from '../components/svg/aptitude/strategy/leader/SvgLeaderC';
+import SvgLeaderD from '../components/svg/aptitude/strategy/leader/SvgLeaderD';
+import SvgLeaderE from '../components/svg/aptitude/strategy/leader/SvgLeaderE';
+import SvgLeaderF from '../components/svg/aptitude/strategy/leader/SvgLeaderF';
+import SvgLeaderG from '../components/svg/aptitude/strategy/leader/SvgLeaderG';
 import SvgBetweener from '../components/svg/aptitude/strategy/SvgBetweener';
 import SvgChaser from '../components/svg/aptitude/strategy/SvgChaser';
 import SvgSurface from '../components/svg/aptitude/surface/SvgSurface';
@@ -133,6 +141,14 @@ function SvgGather() {
       <SvgRunnerF></SvgRunnerF>
       <SvgRunnerG></SvgRunnerG>
       <SvgLeader></SvgLeader>
+      <SvgLeaderS></SvgLeaderS>
+      <SvgLeaderA></SvgLeaderA>
+      <SvgLeaderB></SvgLeaderB>
+      <SvgLeaderC></SvgLeaderC>
+      <SvgLeaderD></SvgLeaderD>
+      <SvgLeaderE></SvgLeaderE>
+      <SvgLeaderF></SvgLeaderF>
+      <SvgLeaderG></SvgLeaderG>
       <SvgBetweener></SvgBetweener>
       <SvgChaser></SvgChaser>
 
