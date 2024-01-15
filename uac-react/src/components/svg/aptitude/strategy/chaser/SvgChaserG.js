@@ -1,4 +1,4 @@
-export default function SvgChaser() {
+export default function SvgChaserG() {
   return (
     <>
       <svg viewBox="0 0 208 56">

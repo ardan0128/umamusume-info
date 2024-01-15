@@ -1,4 +1,4 @@
-export default function SvgChaser() {
+export default function SvgChaserS() {
   return (
     <>
       <svg viewBox="0 0 208 56">
@@ -20,8 +20,8 @@ export default function SvgChaser() {
             <stop offset="100%" style={{ stopColor: '#535255', stopOpacity: 1 }} />
           </linearGradient>
         </defs>
-        <text x={150} y={46} fontSize="50px" fontFamily="Arial, Helvetica, sans-serif" fontWeight="bold" fill="url(#textGradientG)" stroke="url(#borderGradientG)" strokeWidth={2}>
-          G
+        <text x={150} y={46} fontSize="50px" fontFamily="Arial, Helvetica, sans-serif" fontWeight="bold" fill="url(#textGradientS)" stroke="url(#borderGradientS)" strokeWidth={2}>
+          S
         </text>
       </svg>
     </>

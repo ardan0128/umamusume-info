@@ -78,6 +78,14 @@ import SvgBetweenerE from '../components/svg/aptitude/strategy/betweener/SvgBetw
 import SvgBetweenerF from '../components/svg/aptitude/strategy/betweener/SvgBetweenerF';
 import SvgBetweenerG from '../components/svg/aptitude/strategy/betweener/SvgBetweenerG';
 import SvgChaser from '../components/svg/aptitude/strategy/SvgChaser';
+import SvgChaserS from '../components/svg/aptitude/strategy/chaser/SvgChaserS';
+import SvgChaserA from '../components/svg/aptitude/strategy/chaser/SvgChaserA';
+import SvgChaserB from '../components/svg/aptitude/strategy/chaser/SvgChaserB';
+import SvgChaserC from '../components/svg/aptitude/strategy/chaser/SvgChaserC';
+import SvgChaserD from '../components/svg/aptitude/strategy/chaser/SvgChaserD';
+import SvgChaserE from '../components/svg/aptitude/strategy/chaser/SvgChaserE';
+import SvgChaserF from '../components/svg/aptitude/strategy/chaser/SvgChaserF';
+import SvgChaserG from '../components/svg/aptitude/strategy/chaser/SvgChaserG';
 import SvgSurface from '../components/svg/aptitude/surface/SvgSurface';
 import SvgDistance from '../components/svg/aptitude/distance/SvgDistance';
 import SvgStrategy from '../components/svg/aptitude/strategy/SvgStrategy';
@@ -95,6 +103,7 @@ function SvgGather() {
       <SvgTurfE></SvgTurfE>
       <SvgTurfF></SvgTurfF>
       <SvgTurfG></SvgTurfG>
+
       <SvgDirtS></SvgDirtS>
       <SvgDirtA></SvgDirtA>
       <SvgDirtB></SvgDirtB>
@@ -103,7 +112,7 @@ function SvgGather() {
       <SvgDirtE></SvgDirtE>
       <SvgDirtF></SvgDirtF>
       <SvgDirtG></SvgDirtG>
-      <SvgShort></SvgShort>
+
       <SvgShortS></SvgShortS>
       <SvgShortA></SvgShortA>
       <SvgShortB></SvgShortB>
@@ -112,7 +121,7 @@ function SvgGather() {
       <SvgShortE></SvgShortE>
       <SvgShortF></SvgShortF>
       <SvgShortG></SvgShortG>
-      <SvgMile></SvgMile>
+
       <SvgMileS></SvgMileS>
       <SvgMileA></SvgMileA>
       <SvgMileB></SvgMileB>
@@ -121,7 +130,7 @@ function SvgGather() {
       <SvgMileE></SvgMileE>
       <SvgMileF></SvgMileF>
       <SvgMileG></SvgMileG>
-      <SvgMedium></SvgMedium>
+
       <SvgMediumS></SvgMediumS>
       <SvgMediumA></SvgMediumA>
       <SvgMediumB></SvgMediumB>
@@ -130,7 +139,7 @@ function SvgGather() {
       <SvgMediumE></SvgMediumE>
       <SvgMediumF></SvgMediumF>
       <SvgMediumG></SvgMediumG>
-      <SvgLong></SvgLong>
+
       <SvgLongS></SvgLongS>
       <SvgLongA></SvgLongA>
       <SvgLongB></SvgLongB>
@@ -139,7 +148,7 @@ function SvgGather() {
       <SvgLongE></SvgLongE>
       <SvgLongF></SvgLongF>
       <SvgLongG></SvgLongG>
-      <SvgRunner></SvgRunner>
+
       <SvgRunnerS></SvgRunnerS>
       <SvgRunnerA></SvgRunnerA>
       <SvgRunnerB></SvgRunnerB>
@@ -148,7 +157,7 @@ function SvgGather() {
       <SvgRunnerE></SvgRunnerE>
       <SvgRunnerF></SvgRunnerF>
       <SvgRunnerG></SvgRunnerG>
-      <SvgLeader></SvgLeader>
+
       <SvgLeaderS></SvgLeaderS>
       <SvgLeaderA></SvgLeaderA>
       <SvgLeaderB></SvgLeaderB>
@@ -157,7 +166,7 @@ function SvgGather() {
       <SvgLeaderE></SvgLeaderE>
       <SvgLeaderF></SvgLeaderF>
       <SvgLeaderG></SvgLeaderG>
-      <SvgBetweener></SvgBetweener>
+
       <SvgBetweenerS></SvgBetweenerS>
       <SvgBetweenerA></SvgBetweenerA>
       <SvgBetweenerB></SvgBetweenerB>
@@ -166,7 +175,15 @@ function SvgGather() {
       <SvgBetweenerE></SvgBetweenerE>
       <SvgBetweenerF></SvgBetweenerF>
       <SvgBetweenerG></SvgBetweenerG>
-      <SvgChaser></SvgChaser>
+
+      <SvgChaserS></SvgChaserS>
+      <SvgChaserA></SvgChaserA>
+      <SvgChaserB></SvgChaserB>
+      <SvgChaserC></SvgChaserC>
+      <SvgChaserD></SvgChaserD>
+      <SvgChaserE></SvgChaserE>
+      <SvgChaserF></SvgChaserF>
+      <SvgChaserG></SvgChaserG>
 
       <div className="p-4 w-full min-w-640 flex justify-center items-center">
         <div className="p-1 w-3/4 grid grid-cols-5 gap-2">
