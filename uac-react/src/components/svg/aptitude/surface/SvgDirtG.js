@@ -1,4 +1,4 @@
-function SvgLeader() {
+function SvgDirtG() {
   return (
     <>
       <svg viewBox="0 0 208 56">
@@ -7,17 +7,17 @@ function SvgLeader() {
           <rect x="4" y="4" rx={3} ry={3} width={200} height={48} fill="#ffffff" />
         </g>
         <text x={35} y={44} fontSize="40px" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#794017` }}>
-          선행
+          더트
         </text>
 
         <defs>
-          <linearGradient id="textGradientG" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" style={{ stopColor: '#F0EFF0', stopOpacity: 1 }} />
-            <stop offset="100%" style={{ stopColor: '#C6C6C6', stopOpacity: 1 }} />
+          <linearGradient id="textGradientA" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style={{ stopColor: '#FDE3B3', stopOpacity: 1 }} />
+            <stop offset="100%" style={{ stopColor: '#FB8C39', stopOpacity: 1 }} />
           </linearGradient>
-          <linearGradient id="borderGradientG" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" style={{ stopColor: '#858485', stopOpacity: 1 }} />
-            <stop offset="100%" style={{ stopColor: '#535255', stopOpacity: 1 }} />
+          <linearGradient id="borderGradientA" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style={{ stopColor: '#ED7B2A', stopOpacity: 1 }} />
+            <stop offset="100%" style={{ stopColor: '#A63F0A', stopOpacity: 1 }} />
           </linearGradient>
         </defs>
         <text x={150} y={46} fontSize="50px" fontFamily="Arial, Helvetica, sans-serif" fontWeight="bold" fill="url(#textGradientG)" stroke="url(#borderGradientG)" strokeWidth={2}>
@@ -28,4 +28,4 @@ function SvgLeader() {
   );
 }
 
-export default SvgLeader;
+export default SvgDirtG;

@@ -1,4 +1,4 @@
-function SvgDirt() {
+function SvgDirtD() {
   return (
     <>
       <svg viewBox="0 0 208 56">
@@ -20,12 +20,12 @@ function SvgDirt() {
             <stop offset="100%" style={{ stopColor: '#A63F0A', stopOpacity: 1 }} />
           </linearGradient>
         </defs>
-        <text x={150} y={46} fontSize="50px" fontFamily="Arial, Helvetica, sans-serif" fontWeight="bold" fill="url(#textGradientA)" stroke="url(#borderGradientA)" strokeWidth={2}>
-          A
+        <text x={150} y={46} fontSize="50px" fontFamily="Arial, Helvetica, sans-serif" fontWeight="bold" fill="url(#textGradientD)" stroke="url(#borderGradientD)" strokeWidth={2}>
+          D
         </text>
       </svg>
     </>
   );
 }
 
-export default SvgDirt;
+export default SvgDirtD;

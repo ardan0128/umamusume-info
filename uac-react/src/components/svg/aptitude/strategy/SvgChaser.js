@@ -1,4 +1,4 @@
-function SvgLeader() {
+function SvgChaser() {
   return (
     <>
       <svg viewBox="0 0 208 56">
@@ -7,7 +7,7 @@ function SvgLeader() {
           <rect x="4" y="4" rx={3} ry={3} width={200} height={48} fill="#ffffff" />
         </g>
         <text x={35} y={44} fontSize="40px" fontFamily="Arial, Helvetica, sans-serif" style={{ fill: `#794017` }}>
-          선행
+          추입
         </text>
 
         <defs>
@@ -28,4 +28,4 @@ function SvgLeader() {
   );
 }
 
-export default SvgLeader;
+export default SvgChaser;

@@ -6,13 +6,22 @@ import SvgTurfD from '../components/svg/aptitude/surface/SvgTurfD';
 import SvgTurfE from '../components/svg/aptitude/surface/SvgTurfE';
 import SvgTurfF from '../components/svg/aptitude/surface/SvgTurfF';
 import SvgTurfG from '../components/svg/aptitude/surface/SvgTurfG';
-import SvgDirt from '../components/svg/aptitude/surface/SvgDirt';
+import SvgDirtS from '../components/svg/aptitude/surface/SvgDirtS';
+import SvgDirtA from '../components/svg/aptitude/surface/SvgDirtA';
+import SvgDirtB from '../components/svg/aptitude/surface/SvgDirtB';
+import SvgDirtC from '../components/svg/aptitude/surface/SvgDirtC';
+import SvgDirtD from '../components/svg/aptitude/surface/SvgDirtD';
+import SvgDirtE from '../components/svg/aptitude/surface/SvgDirtE';
+import SvgDirtF from '../components/svg/aptitude/surface/SvgDirtF';
+import SvgDirtG from '../components/svg/aptitude/surface/SvgDirtG';
 import SvgShort from '../components/svg/aptitude/distance/SvgShort';
 import SvgMile from '../components/svg/aptitude/distance/SvgMile';
 import SvgMedium from '../components/svg/aptitude/distance/SvgMedium';
 import SvgLong from '../components/svg/aptitude/distance/SvgLong';
 import SvgRunner from '../components/svg/aptitude/strategy/SvgRunner';
 import SvgLeader from '../components/svg/aptitude/strategy/SvgLeader';
+import SvgBetweener from '../components/svg/aptitude/strategy/SvgBetweener';
+import SvgChaser from '../components/svg/aptitude/strategy/SvgChaser';
 import SvgSurface from '../components/svg/aptitude/surface/SvgSurface';
 import SvgDistance from '../components/svg/aptitude/distance/SvgDistance';
 import SvgStrategy from '../components/svg/aptitude/strategy/SvgStrategy';
@@ -30,16 +39,22 @@ function SvgGather() {
       <SvgTurfE></SvgTurfE>
       <SvgTurfF></SvgTurfF>
       <SvgTurfG></SvgTurfG>
-      <SvgDirt></SvgDirt>
+      <SvgDirtS></SvgDirtS>
+      <SvgDirtA></SvgDirtA>
+      <SvgDirtB></SvgDirtB>
+      <SvgDirtC></SvgDirtC>
+      <SvgDirtD></SvgDirtD>
+      <SvgDirtE></SvgDirtE>
+      <SvgDirtF></SvgDirtF>
+      <SvgDirtG></SvgDirtG>
       <SvgShort></SvgShort>
       <SvgMile></SvgMile>
       <SvgMedium></SvgMedium>
       <SvgLong></SvgLong>
       <SvgRunner></SvgRunner>
       <SvgLeader></SvgLeader>
-      <SvgSurface></SvgSurface>
-      <SvgDistance></SvgDistance>
-      <SvgStrategy></SvgStrategy>
+      <SvgBetweener></SvgBetweener>
+      <SvgChaser></SvgChaser>
 
       <div className="p-4 w-full min-w-640 flex justify-center items-center">
         <div className="p-1 w-3/4 grid grid-cols-5 gap-2">
@@ -50,7 +65,7 @@ function SvgGather() {
             <SvgTurfS></SvgTurfS>
           </div>
           <div>
-            <SvgDirt></SvgDirt>
+            <SvgDirtS></SvgDirtS>
           </div>
           <div></div>
           <div></div>
