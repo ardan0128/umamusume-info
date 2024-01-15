@@ -69,6 +69,14 @@ import SvgLeaderE from '../components/svg/aptitude/strategy/leader/SvgLeaderE';
 import SvgLeaderF from '../components/svg/aptitude/strategy/leader/SvgLeaderF';
 import SvgLeaderG from '../components/svg/aptitude/strategy/leader/SvgLeaderG';
 import SvgBetweener from '../components/svg/aptitude/strategy/SvgBetweener';
+import SvgBetweenerS from '../components/svg/aptitude/strategy/betweener/SvgBetweenerS';
+import SvgBetweenerA from '../components/svg/aptitude/strategy/betweener/SvgBetweenerA';
+import SvgBetweenerB from '../components/svg/aptitude/strategy/betweener/SvgBetweenerB';
+import SvgBetweenerC from '../components/svg/aptitude/strategy/betweener/SvgBetweenerC';
+import SvgBetweenerD from '../components/svg/aptitude/strategy/betweener/SvgBetweenerD';
+import SvgBetweenerE from '../components/svg/aptitude/strategy/betweener/SvgBetweenerE';
+import SvgBetweenerF from '../components/svg/aptitude/strategy/betweener/SvgBetweenerF';
+import SvgBetweenerG from '../components/svg/aptitude/strategy/betweener/SvgBetweenerG';
 import SvgChaser from '../components/svg/aptitude/strategy/SvgChaser';
 import SvgSurface from '../components/svg/aptitude/surface/SvgSurface';
 import SvgDistance from '../components/svg/aptitude/distance/SvgDistance';
@@ -150,6 +158,14 @@ function SvgGather() {
       <SvgLeaderF></SvgLeaderF>
       <SvgLeaderG></SvgLeaderG>
       <SvgBetweener></SvgBetweener>
+      <SvgBetweenerS></SvgBetweenerS>
+      <SvgBetweenerA></SvgBetweenerA>
+      <SvgBetweenerB></SvgBetweenerB>
+      <SvgBetweenerC></SvgBetweenerC>
+      <SvgBetweenerD></SvgBetweenerD>
+      <SvgBetweenerE></SvgBetweenerE>
+      <SvgBetweenerF></SvgBetweenerF>
+      <SvgBetweenerG></SvgBetweenerG>
       <SvgChaser></SvgChaser>
 
       <div className="p-4 w-full min-w-640 flex justify-center items-center">
