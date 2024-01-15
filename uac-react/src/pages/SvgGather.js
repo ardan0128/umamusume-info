@@ -24,6 +24,14 @@ import SvgShortG from '../components/svg/aptitude/distance/short/SvgShortG';
 import SvgShortS from '../components/svg/aptitude/distance/short/SvgShortS';
 import SvgShort from '../components/svg/aptitude/distance/SvgShort';
 import SvgMile from '../components/svg/aptitude/distance/SvgMile';
+import SvgMileS from '../components/svg/aptitude/distance/mile/SvgMileS';
+import SvgMileA from '../components/svg/aptitude/distance/mile/SvgMileA';
+import SvgMileB from '../components/svg/aptitude/distance/mile/SvgMileB';
+import SvgMileC from '../components/svg/aptitude/distance/mile/SvgMileC';
+import SvgMileD from '../components/svg/aptitude/distance/mile/SvgMileD';
+import SvgMileE from '../components/svg/aptitude/distance/mile/SvgMileE';
+import SvgMileF from '../components/svg/aptitude/distance/mile/SvgMileF';
+import SvgMileG from '../components/svg/aptitude/distance/mile/SvgMileG';
 import SvgMedium from '../components/svg/aptitude/distance/SvgMedium';
 import SvgLong from '../components/svg/aptitude/distance/SvgLong';
 import SvgRunner from '../components/svg/aptitude/strategy/SvgRunner';
@@ -65,6 +73,14 @@ function SvgGather() {
       <SvgShortF></SvgShortF>
       <SvgShortG></SvgShortG>
       <SvgMile></SvgMile>
+      <SvgMileS></SvgMileS>
+      <SvgMileA></SvgMileA>
+      <SvgMileB></SvgMileB>
+      <SvgMileC></SvgMileC>
+      <SvgMileD></SvgMileD>
+      <SvgMileE></SvgMileE>
+      <SvgMileF></SvgMileF>
+      <SvgMileG></SvgMileG>
       <SvgMedium></SvgMedium>
       <SvgLong></SvgLong>
       <SvgRunner></SvgRunner>

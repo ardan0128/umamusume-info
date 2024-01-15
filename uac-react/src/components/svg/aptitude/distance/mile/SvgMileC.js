@@ -1,4 +1,4 @@
-function SvgMile() {
+function SvgMileC() {
   return (
     <>
       <svg viewBox="0 0 208 56">
@@ -28,4 +28,4 @@ function SvgMile() {
   );
 }
 
-export default SvgMile;
+export default SvgMileC;
