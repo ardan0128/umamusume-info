@@ -42,6 +42,14 @@ import SvgMediumE from '../components/svg/aptitude/distance/medium/SvgMediumE';
 import SvgMediumF from '../components/svg/aptitude/distance/medium/SvgMediumF';
 import SvgMediumG from '../components/svg/aptitude/distance/medium/SvgMediumG';
 import SvgLong from '../components/svg/aptitude/distance/SvgLong';
+import SvgLongS from '../components/svg/aptitude/distance/long/SvgLongS';
+import SvgLongA from '../components/svg/aptitude/distance/long/SvgLongA';
+import SvgLongB from '../components/svg/aptitude/distance/long/SvgLongB';
+import SvgLongC from '../components/svg/aptitude/distance/long/SvgLongC';
+import SvgLongD from '../components/svg/aptitude/distance/long/SvgLongD';
+import SvgLongE from '../components/svg/aptitude/distance/long/SvgLongE';
+import SvgLongF from '../components/svg/aptitude/distance/long/SvgLongF';
+import SvgLongG from '../components/svg/aptitude/distance/long/SvgLongG';
 import SvgRunner from '../components/svg/aptitude/strategy/SvgRunner';
 import SvgLeader from '../components/svg/aptitude/strategy/SvgLeader';
 import SvgBetweener from '../components/svg/aptitude/strategy/SvgBetweener';
@@ -99,6 +107,14 @@ function SvgGather() {
       <SvgMediumF></SvgMediumF>
       <SvgMediumG></SvgMediumG>
       <SvgLong></SvgLong>
+      <SvgLongS></SvgLongS>
+      <SvgLongA></SvgLongA>
+      <SvgLongB></SvgLongB>
+      <SvgLongC></SvgLongC>
+      <SvgLongD></SvgLongD>
+      <SvgLongE></SvgLongE>
+      <SvgLongF></SvgLongF>
+      <SvgLongG></SvgLongG>
       <SvgRunner></SvgRunner>
       <SvgLeader></SvgLeader>
       <SvgBetweener></SvgBetweener>
