@@ -68,7 +68,7 @@ import SvgLeaderD from '../components/svg/aptitude/strategy/leader/SvgLeaderD';
 import SvgLeaderE from '../components/svg/aptitude/strategy/leader/SvgLeaderE';
 import SvgLeaderF from '../components/svg/aptitude/strategy/leader/SvgLeaderF';
 import SvgLeaderG from '../components/svg/aptitude/strategy/leader/SvgLeaderG';
-import SvgBetweener from '../components/svg/aptitude/strategy/SvgBetweener';
+
 import SvgBetweenerS from '../components/svg/aptitude/strategy/betweener/SvgBetweenerS';
 import SvgBetweenerA from '../components/svg/aptitude/strategy/betweener/SvgBetweenerA';
 import SvgBetweenerB from '../components/svg/aptitude/strategy/betweener/SvgBetweenerB';
@@ -77,7 +77,7 @@ import SvgBetweenerD from '../components/svg/aptitude/strategy/betweener/SvgBetw
 import SvgBetweenerE from '../components/svg/aptitude/strategy/betweener/SvgBetweenerE';
 import SvgBetweenerF from '../components/svg/aptitude/strategy/betweener/SvgBetweenerF';
 import SvgBetweenerG from '../components/svg/aptitude/strategy/betweener/SvgBetweenerG';
-import SvgChaser from '../components/svg/aptitude/strategy/SvgChaser';
+
 import SvgChaserS from '../components/svg/aptitude/strategy/chaser/SvgChaserS';
 import SvgChaserA from '../components/svg/aptitude/strategy/chaser/SvgChaserA';
 import SvgChaserB from '../components/svg/aptitude/strategy/chaser/SvgChaserB';
