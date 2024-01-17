@@ -648,7 +648,7 @@ values
     (105902, 'Vacances Saphir', 'Mejiro Dober', '/images/umamusume/105902.png', true, true, 105902, 105902, 105902),
     (106001, 'Poinsettia Ribbon', 'Nice Nature', '/images/umamusume/106001.png', true, true, 106001, 106001, 106001),
     (106002, 'RUN＆WIN', 'Nice Nature', '/images/umamusume/106002.png', true, true, 106002, 106002, 106002),
-    (106003, 'ネガイノカサネ', 'Nice Nature', '/images/umamusume/106003.png', true, true, 106003, 106003, 106003),
+    (106003, 'Converging Wishes', 'Nice Nature', '/images/umamusume/106003.png', true, true, 106003, 106003, 106003),
     (106101, 'King of Emeralds', 'King Halo', '/images/umamusume/106101.png', true, true, 106101, 106101, 106101),
     (106102, 'Noble White Cheer Attire', 'King Halo', '/images/umamusume/106102.png', true, true, 106102, 106102, 106102),
     (106201, 'Pan~Paka~Tiru~Toto', 'Matikanetannhauser', '/images/umamusume/106201.png', true, true, 106201, 106201, 106201),
