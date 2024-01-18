@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
-import './../styles/modal.css';
+import './../styles/modal/modal.css';
 import { getAllUmamusume } from '../data/api/Umamusume';
-import Umamusume from './Umamusume';
 
 export default function AptitudeModal({ isOpen, onClose }) {
   const [loading, setLoading] = useState(true);

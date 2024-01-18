@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { getDetailUmamusume } from '../../data/api/Umamusume';
 import Detailumamusume from '../DetailUmamusume';
+import ModalSelectAptitude from './ModalSelectAptitude';
 
 export default function ModalInfoUmamusume({ isOpen, onClose, umamusumeId }) {
   const [loading, setLoading] = useState(true);
@@ -24,6 +25,7 @@ export default function ModalInfoUmamusume({ isOpen, onClose, umamusumeId }) {
             ) : (
               <div>
                 <Detailumamusume {...umamusumeDetail}></Detailumamusume>
+                <ModalSelectAptitude {...umamusumeDetail}></ModalSelectAptitude>
               </div>
             )}
           </div>

@@ -1,101 +1,132 @@
-import SvgDistance from './svg/aptitude/distance/SvgDistance';
-import SvgSurface from './svg/aptitude/surface/SvgSurface';
-import SvgStrategy from './svg/aptitude/strategy/SvgStrategy';
+import SvgDistance from '../svg/aptitude/distance/SvgDistance';
+import SvgSurface from '../svg/aptitude/surface/SvgSurface';
+import SvgStrategy from '../svg/aptitude/strategy/SvgStrategy';
 
-import SvgSurfaceA from './svg/aptitude/surface/turf/SvgTurfA';
-import SvgSurfaceB from './svg/aptitude/surface/turf/SvgTurfB';
-import SvgSurfaceC from './svg/aptitude/surface/turf/SvgTurfC';
-import SvgSurfaceD from './svg/aptitude/surface/turf/SvgTurfD';
-import SvgSurfaceE from './svg/aptitude/surface/turf/SvgTurfE';
-import SvgSurfaceF from './svg/aptitude/surface/turf/SvgTurfF';
-import SvgSurfaceG from './svg/aptitude/surface/turf/SvgTurfG';
+import SvgSurfaceA from '../svg/aptitude/surface/turf/SvgTurfA';
+import SvgSurfaceB from '../svg/aptitude/surface/turf/SvgTurfB';
+import SvgSurfaceC from '../svg/aptitude/surface/turf/SvgTurfC';
+import SvgSurfaceD from '../svg/aptitude/surface/turf/SvgTurfD';
+import SvgSurfaceE from '../svg/aptitude/surface/turf/SvgTurfE';
+import SvgSurfaceF from '../svg/aptitude/surface/turf/SvgTurfF';
+import SvgSurfaceG from '../svg/aptitude/surface/turf/SvgTurfG';
 
-import SvgDirtA from './svg/aptitude/surface/dirt/SvgDirtA';
-import SvgDirtB from './svg/aptitude/surface/dirt/SvgDirtB';
-import SvgDirtC from './svg/aptitude/surface/dirt/SvgDirtC';
-import SvgDirtD from './svg/aptitude/surface/dirt/SvgDirtD';
-import SvgDirtE from './svg/aptitude/surface/dirt/SvgDirtE';
-import SvgDirtF from './svg/aptitude/surface/dirt/SvgDirtF';
-import SvgDirtG from './svg/aptitude/surface/dirt/SvgDirtG';
+import SvgDirtA from '../svg/aptitude/surface/dirt/SvgDirtA';
+import SvgDirtB from '../svg/aptitude/surface/dirt/SvgDirtB';
+import SvgDirtC from '../svg/aptitude/surface/dirt/SvgDirtC';
+import SvgDirtD from '../svg/aptitude/surface/dirt/SvgDirtD';
+import SvgDirtE from '../svg/aptitude/surface/dirt/SvgDirtE';
+import SvgDirtF from '../svg/aptitude/surface/dirt/SvgDirtF';
+import SvgDirtG from '../svg/aptitude/surface/dirt/SvgDirtG';
 
-import SvgShortA from './svg/aptitude/distance/short/SvgShortA';
-import SvgShortB from './svg/aptitude/distance/short/SvgShortB';
-import SvgShortC from './svg/aptitude/distance/short/SvgShortC';
-import SvgShortD from './svg/aptitude/distance/short/SvgShortD';
-import SvgShortE from './svg/aptitude/distance/short/SvgShortE';
-import SvgShortF from './svg/aptitude/distance/short/SvgShortF';
-import SvgShortG from './svg/aptitude/distance/short/SvgShortG';
+import SvgShortA from '../svg/aptitude/distance/short/SvgShortA';
+import SvgShortB from '../svg/aptitude/distance/short/SvgShortB';
+import SvgShortC from '../svg/aptitude/distance/short/SvgShortC';
+import SvgShortD from '../svg/aptitude/distance/short/SvgShortD';
+import SvgShortE from '../svg/aptitude/distance/short/SvgShortE';
+import SvgShortF from '../svg/aptitude/distance/short/SvgShortF';
+import SvgShortG from '../svg/aptitude/distance/short/SvgShortG';
 
-import SvgMileA from './svg/aptitude/distance/mile/SvgMileA';
-import SvgMileB from './svg/aptitude/distance/mile/SvgMileB';
-import SvgMileC from './svg/aptitude/distance/mile/SvgMileC';
-import SvgMileD from './svg/aptitude/distance/mile/SvgMileD';
-import SvgMileE from './svg/aptitude/distance/mile/SvgMileE';
-import SvgMileF from './svg/aptitude/distance/mile/SvgMileF';
-import SvgMileG from './svg/aptitude/distance/mile/SvgMileG';
+import SvgMileA from '../svg/aptitude/distance/mile/SvgMileA';
+import SvgMileB from '../svg/aptitude/distance/mile/SvgMileB';
+import SvgMileC from '../svg/aptitude/distance/mile/SvgMileC';
+import SvgMileD from '../svg/aptitude/distance/mile/SvgMileD';
+import SvgMileE from '../svg/aptitude/distance/mile/SvgMileE';
+import SvgMileF from '../svg/aptitude/distance/mile/SvgMileF';
+import SvgMileG from '../svg/aptitude/distance/mile/SvgMileG';
 
-import SvgMediumA from './svg/aptitude/distance/medium/SvgMediumA';
-import SvgMediumB from './svg/aptitude/distance/medium/SvgMediumB';
-import SvgMediumC from './svg/aptitude/distance/medium/SvgMediumC';
-import SvgMediumD from './svg/aptitude/distance/medium/SvgMediumD';
-import SvgMediumE from './svg/aptitude/distance/medium/SvgMediumE';
-import SvgMediumF from './svg/aptitude/distance/medium/SvgMediumF';
-import SvgMediumG from './svg/aptitude/distance/medium/SvgMediumG';
+import SvgMediumA from '../svg/aptitude/distance/medium/SvgMediumA';
+import SvgMediumB from '../svg/aptitude/distance/medium/SvgMediumB';
+import SvgMediumC from '../svg/aptitude/distance/medium/SvgMediumC';
+import SvgMediumD from '../svg/aptitude/distance/medium/SvgMediumD';
+import SvgMediumE from '../svg/aptitude/distance/medium/SvgMediumE';
+import SvgMediumF from '../svg/aptitude/distance/medium/SvgMediumF';
+import SvgMediumG from '../svg/aptitude/distance/medium/SvgMediumG';
 
-import SvgLongA from './svg/aptitude/distance/long/SvgLongA';
-import SvgLongB from './svg/aptitude/distance/long/SvgLongB';
-import SvgLongC from './svg/aptitude/distance/long/SvgLongC';
-import SvgLongD from './svg/aptitude/distance/long/SvgLongD';
-import SvgLongE from './svg/aptitude/distance/long/SvgLongE';
-import SvgLongF from './svg/aptitude/distance/long/SvgLongF';
-import SvgLongG from './svg/aptitude/distance/long/SvgLongG';
+import SvgLongA from '../svg/aptitude/distance/long/SvgLongA';
+import SvgLongB from '../svg/aptitude/distance/long/SvgLongB';
+import SvgLongC from '../svg/aptitude/distance/long/SvgLongC';
+import SvgLongD from '../svg/aptitude/distance/long/SvgLongD';
+import SvgLongE from '../svg/aptitude/distance/long/SvgLongE';
+import SvgLongF from '../svg/aptitude/distance/long/SvgLongF';
+import SvgLongG from '../svg/aptitude/distance/long/SvgLongG';
 
-import SvgRunnerA from './svg/aptitude/strategy/runner/SvgRunnerA';
-import SvgRunnerB from './svg/aptitude/strategy/runner/SvgRunnerB';
-import SvgRunnerC from './svg/aptitude/strategy/runner/SvgRunnerC';
-import SvgRunnerD from './svg/aptitude/strategy/runner/SvgRunnerD';
-import SvgRunnerE from './svg/aptitude/strategy/runner/SvgRunnerE';
-import SvgRunnerF from './svg/aptitude/strategy/runner/SvgRunnerF';
-import SvgRunnerG from './svg/aptitude/strategy/runner/SvgRunnerG';
+import SvgRunnerA from '../svg/aptitude/strategy/runner/SvgRunnerA';
+import SvgRunnerB from '../svg/aptitude/strategy/runner/SvgRunnerB';
+import SvgRunnerC from '../svg/aptitude/strategy/runner/SvgRunnerC';
+import SvgRunnerD from '../svg/aptitude/strategy/runner/SvgRunnerD';
+import SvgRunnerE from '../svg/aptitude/strategy/runner/SvgRunnerE';
+import SvgRunnerF from '../svg/aptitude/strategy/runner/SvgRunnerF';
+import SvgRunnerG from '../svg/aptitude/strategy/runner/SvgRunnerG';
 
-import SvgLeaderA from './svg/aptitude/strategy/leader/SvgLeaderA';
-import SvgLeaderB from './svg/aptitude/strategy/leader/SvgLeaderB';
-import SvgLeaderC from './svg/aptitude/strategy/leader/SvgLeaderC';
-import SvgLeaderD from './svg/aptitude/strategy/leader/SvgLeaderD';
-import SvgLeaderE from './svg/aptitude/strategy/leader/SvgLeaderE';
-import SvgLeaderF from './svg/aptitude/strategy/leader/SvgLeaderF';
-import SvgLeaderG from './svg/aptitude/strategy/leader/SvgLeaderG';
+import SvgLeaderA from '../svg/aptitude/strategy/leader/SvgLeaderA';
+import SvgLeaderB from '../svg/aptitude/strategy/leader/SvgLeaderB';
+import SvgLeaderC from '../svg/aptitude/strategy/leader/SvgLeaderC';
+import SvgLeaderD from '../svg/aptitude/strategy/leader/SvgLeaderD';
+import SvgLeaderE from '../svg/aptitude/strategy/leader/SvgLeaderE';
+import SvgLeaderF from '../svg/aptitude/strategy/leader/SvgLeaderF';
+import SvgLeaderG from '../svg/aptitude/strategy/leader/SvgLeaderG';
 
-import SvgBetweenerA from './svg/aptitude/strategy/betweener/SvgBetweenerA';
-import SvgBetweenerB from './svg/aptitude/strategy/betweener/SvgBetweenerB';
-import SvgBetweenerC from './svg/aptitude/strategy/betweener/SvgBetweenerC';
-import SvgBetweenerD from './svg/aptitude/strategy/betweener/SvgBetweenerD';
-import SvgBetweenerE from './svg/aptitude/strategy/betweener/SvgBetweenerE';
-import SvgBetweenerF from './svg/aptitude/strategy/betweener/SvgBetweenerF';
-import SvgBetweenerG from './svg/aptitude/strategy/betweener/SvgBetweenerG';
+import SvgBetweenerA from '../svg/aptitude/strategy/betweener/SvgBetweenerA';
+import SvgBetweenerB from '../svg/aptitude/strategy/betweener/SvgBetweenerB';
+import SvgBetweenerC from '../svg/aptitude/strategy/betweener/SvgBetweenerC';
+import SvgBetweenerD from '../svg/aptitude/strategy/betweener/SvgBetweenerD';
+import SvgBetweenerE from '../svg/aptitude/strategy/betweener/SvgBetweenerE';
+import SvgBetweenerF from '../svg/aptitude/strategy/betweener/SvgBetweenerF';
+import SvgBetweenerG from '../svg/aptitude/strategy/betweener/SvgBetweenerG';
 
-import SvgChaserA from './svg/aptitude/strategy/chaser/SvgChaserA';
-import SvgChaserB from './svg/aptitude/strategy/chaser/SvgChaserB';
-import SvgChaserC from './svg/aptitude/strategy/chaser/SvgChaserC';
-import SvgChaserD from './svg/aptitude/strategy/chaser/SvgChaserD';
-import SvgChaserE from './svg/aptitude/strategy/chaser/SvgChaserE';
-import SvgChaserF from './svg/aptitude/strategy/chaser/SvgChaserF';
-import SvgChaserG from './svg/aptitude/strategy/chaser/SvgChaserG';
+import SvgChaserA from '../svg/aptitude/strategy/chaser/SvgChaserA';
+import SvgChaserB from '../svg/aptitude/strategy/chaser/SvgChaserB';
+import SvgChaserC from '../svg/aptitude/strategy/chaser/SvgChaserC';
+import SvgChaserD from '../svg/aptitude/strategy/chaser/SvgChaserD';
+import SvgChaserE from '../svg/aptitude/strategy/chaser/SvgChaserE';
+import SvgChaserF from '../svg/aptitude/strategy/chaser/SvgChaserF';
+import SvgChaserG from '../svg/aptitude/strategy/chaser/SvgChaserG';
 
-function Detailumamusume(props) {
+import '../../styles/modal/selectBox.css';
+
+export default function ModalSelectAptitude(props) {
+  const selectBoxElements = document.querySelectorAll('.select');
+
+  function toggleSelectBox(selectBox) {
+    selectBox.classList.toggle('active');
+  }
+
+  function selectOption(optionElement) {
+    const selectBox = optionElement.closest('.select');
+    const selectedElement = selectBox.querySelector('.selectedValue');
+    selectedElement.textContent = optionElement.textContent;
+  }
+
+  selectBoxElements.forEach(selectBoxElement => {
+    selectBoxElement.addEventListener('click', function (e) {
+      const targetElement = e.target;
+      const isOptionElement = targetElement.classList.contains('option');
+
+      if (isOptionElement) {
+        selectOption(targetElement);
+      }
+
+      toggleSelectBox(selectBoxElement);
+    });
+  });
+
+  document.addEventListener('click', function (e) {
+    const targetElement = e.target;
+    const isSelect = targetElement.classList.contains('select') || targetElement.closest('.select');
+
+    if (isSelect) {
+      return;
+    }
+
+    const allSelectBoxElements = document.querySelectorAll('.select');
+
+    allSelectBoxElements.forEach(boxElement => {
+      boxElement.classList.remove('active');
+    });
+  });
+
   return (
     <>
-      <div className="p-4 w-full flex justify-center items-center">
-        <div className="min-w-640 max-w-7xl flex justify-center items-center">
-          <div className="min-w-[16.666667%] w-1/6">
-            <img src={`${process.env.PUBLIC_URL}/images/umamusume/${props.id}.png`} alt={props.id}></img>
-          </div>
-          <div>
-            <div className="flex-auto flex-row text-center text-4xl">[{props.title}]</div>
-            <div className="flex-auto flex-row text-center text-6xl">{props.name}</div>
-          </div>
-        </div>
-      </div>
       <div className="p-4 w-full flex justify-center items-center">
         <div className="p-1 min-w-640 max-w-3xl w-3/4 grid grid-cols-5 gap-2">
           <div>
@@ -141,7 +172,37 @@ function Detailumamusume(props) {
               }
             })()}
           </div>
-          <div></div>
+          <div className="select">
+            <div className="selected">
+              <div className="selectedValue w-full">
+                <SvgDirtA></SvgDirtA>
+              </div>
+            </div>
+            <ul className="w-full">
+              <li>
+                <SvgDirtA></SvgDirtA>
+              </li>
+              <li className="option">
+                <SvgDirtB></SvgDirtB>
+              </li>
+              <li className="option">
+                <SvgDirtC></SvgDirtC>
+              </li>
+              <li className="option">
+                <SvgDirtD></SvgDirtD>
+              </li>
+              <li className="option">
+                <SvgDirtE></SvgDirtE>
+              </li>
+              <li className="option">
+                <SvgDirtF></SvgDirtF>
+              </li>
+              <li className="option">
+                <SvgDirtG></SvgDirtG>
+              </li>
+            </ul>
+          </div>
+
           <div></div>
           <div>
             <SvgDistance></SvgDistance>
@@ -314,5 +375,3 @@ function Detailumamusume(props) {
     </>
   );
 }
-
-export default Detailumamusume;

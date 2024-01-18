@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { getAllUmamusume } from '../data/api/Umamusume';
 import Umamusume from '../components/Umamusume';

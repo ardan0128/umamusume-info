@@ -1,0 +1,36 @@
+ul {
+  list-style-type: none;
+}
+
+.select {
+  display: inline-block;
+}
+
+.select .selected {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select ul li,
+.select .selected .selectedValue {
+  white-space: nowrap;
+  /* 줄바꿈 안함 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* 말줄임 적용 */
+}
+
+.select ul {
+  border: 1px solid #999;
+  display: none;
+  position: absolute;
+  cursor: pointer;
+}
+
+.select.active ul {
+  display: initial;
+}
+
+.select ul li:hover {
+  background: rgba(168, 156, 235, 0.35);
+}
