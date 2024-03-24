@@ -85,46 +85,6 @@ import SvgChaserG from '../svg/aptitude/strategy/chaser/SvgChaserG';
 import '../../styles/modal/selectBox.css';
 
 export default function ModalSelectAptitude(props) {
-  const selectBoxElements = document.querySelectorAll('.select');
-
-  function toggleSelectBox(selectBox) {
-    selectBox.classList.toggle('active');
-  }
-
-  function selectOption(optionElement) {
-    const selectBox = optionElement.closest('.select');
-    const selectedElement = selectBox.querySelector('.selectedValue');
-    selectedElement.textContent = optionElement.textContent;
-  }
-
-  selectBoxElements.forEach(selectBoxElement => {
-    selectBoxElement.addEventListener('click', function (e) {
-      const targetElement = e.target;
-      const isOptionElement = targetElement.classList.contains('option');
-
-      if (isOptionElement) {
-        selectOption(targetElement);
-      }
-
-      toggleSelectBox(selectBoxElement);
-    });
-  });
-
-  document.addEventListener('click', function (e) {
-    const targetElement = e.target;
-    const isSelect = targetElement.classList.contains('select') || targetElement.closest('.select');
-
-    if (isSelect) {
-      return;
-    }
-
-    const allSelectBoxElements = document.querySelectorAll('.select');
-
-    allSelectBoxElements.forEach(boxElement => {
-      boxElement.classList.remove('active');
-    });
-  });
-
   return (
     <>
       <div className="p-4 w-full flex justify-center items-center">
@@ -172,13 +132,13 @@ export default function ModalSelectAptitude(props) {
               }
             })()}
           </div>
-          <div className="select">
+          <div className="select w-full">
             <div className="selected">
-              <div className="selectedValue w-full">
+              <div>
                 <SvgDirtA></SvgDirtA>
               </div>
             </div>
-            <ul className="w-full">
+            <ul>
               <li>
                 <SvgDirtA></SvgDirtA>
               </li>
