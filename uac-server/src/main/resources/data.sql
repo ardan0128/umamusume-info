@@ -353,7 +353,7 @@ values
     (110501, 'F', 'B', 'A', 'B'),
     (110601, 'G', 'G', 'A', 'A'),
     (110701, 'G', 'E', 'A', 'A'),
-    (110801, 'A', 'G', 'A', 'C'),
+    (110801, 'G', 'A', 'A', 'C'),
     (110901, 'A', 'G', 'A', 'C');
 
 insert into strategy(id, runner, leader, betweener, chaser)
@@ -532,7 +532,7 @@ values
     (110501, 'F', 'A', 'A', 'C'),
     (110601, 'G', 'C', 'A', 'B'),
     (110701, 'A', 'B', 'F', 'G'),
-    (110801, 'A', 'G', 'A', 'C'),
+    (110801, 'G', 'C', 'A', 'A'),
     (110901, 'A', 'G', 'A', 'C');
 
 insert into umamusume(id, title, name, image, is_released, is_displayed, surface_id, distance_id, strategy_id)
@@ -711,5 +711,5 @@ values
     (110501, 'Universe-Naut', 'Neo Universe', '/images/umamusume/110501.png', false, true, 110501, 110501, 110501),
     (110601, 'Miracle Make-up!', 'Hishi Miracle', '/images/umamusume/110601.png', false, true, 110601, 110601, 110601),
     (110701, 'GLITTER!', 'Tap Dance City', '/images/umamusume/110701.png', false, true, 110701, 110701, 110701),
-    (110801, '', '', '/images/umamusume/110801.png', false, false, 110801, 110801, 110801),
+    (110801, 'Red in Black', 'Duramente', '/images/umamusume/110801.png', false, false, 110801, 110801, 110801),
     (110901, '', '', '/images/umamusume/110901.png', false, false, 110901, 110901, 110901);
