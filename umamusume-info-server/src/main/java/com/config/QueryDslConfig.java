@@ -1,4 +1,4 @@
-package com.umamusume.config;
+package com.config;
 
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import jakarta.persistence.EntityManager;

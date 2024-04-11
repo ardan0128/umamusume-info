@@ -1,4 +1,4 @@
-package com.umamusume.config;
+package com.config;
 
 import com.p6spy.engine.common.ConnectionInformation;
 import com.p6spy.engine.event.JdbcEventListener;
