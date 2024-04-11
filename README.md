@@ -1,1 +1,1 @@
-# umamusume-aptitude-calculator
+# umamusume-info
