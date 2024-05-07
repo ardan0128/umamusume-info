@@ -1,9 +1,19 @@
 package com.umamusume.dto;
 
-import lombok.Getter;
+import com.umamusume.entity.Distance;
+import com.umamusume.entity.Strategy;
+import com.umamusume.entity.Surface;
+import java.time.LocalDate;
+import lombok.Data;
 
-@Getter
+@Data
 public class UmamusumeRequest {
-  long id;
+
+  String title;
   String name;
+  LocalDate releasedDate;
+  boolean isDisplayed;
+  Surface surface;
+  Distance distance;
+  Strategy strategy;
 }
