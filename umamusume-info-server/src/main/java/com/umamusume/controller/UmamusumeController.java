@@ -1,15 +1,15 @@
 package com.umamusume.controller;
 
+import com.umamusume.dto.SurfaceRequestDTO;
+import com.umamusume.dto.SurfaceResponseDTO;
 import com.umamusume.dto.UmamusumeDetailResponse;
-import com.umamusume.dto.UmamusumeRequest;
-import com.umamusume.dto.UmamusumeResponse;
+import com.umamusume.dto.UmamusumeRequestDTO;
+import com.umamusume.dto.UmamusumeResponseDTO;
 import com.umamusume.service.UmamusumeService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
@@ -31,8 +31,10 @@ public class UmamusumeController {
   }
 
   @RequestMapping(method = RequestMethod.POST, value = "/umamusume")
-  public ResponseEntity<UmamusumeRequest> postUmamusume(@RequestBody UmamusumeRequest umamusumeRequest) {
-    System.out.println(umamusumeRequest);
-    return ResponseEntity.status(HttpStatus.CREATED).body(umamusumeRequest);
+  public ResponseEntity<UmamusumeResponseDTO> createUmamusume(
+      @RequestBody UmamusumeRequestDTO umamusumeRequestDTO) {
+    UmamusumeResponseDTO umamusumeResponseDTO = umamusumeService.create(umamusumeRequestDTO);
+
+    return ResponseEntity.status(HttpStatus.CREATED).body(umamusumeResponseDTO);
   }
 }

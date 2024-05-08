@@ -26,8 +26,8 @@ public class Umamusume {
   @Column(name = "released_date")
   private LocalDate releasedDate;
 
-  @Column(name = "is_displayed", nullable = false)
-  private boolean isDisplayed;
+  @Column(name = "displayed", nullable = false)
+  private boolean displayed;
 
   @OneToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = "surface_id", referencedColumnName = "id")
@@ -41,11 +41,12 @@ public class Umamusume {
   @JoinColumn(name = "strategy_id", referencedColumnName = "id")
   Strategy strategy;
 
-  private Umamusume(String title, String name, LocalDate releasedDate, boolean isDisplayed, Surface surface, Distance distance, Strategy strategy){
+  public Umamusume(Long id, String title, String name, LocalDate releasedDate, boolean displayed, Surface surface, Distance distance, Strategy strategy){
+    this.id = id;
     this.title = title;
     this.name = name;
     this.releasedDate = releasedDate;
-    this.isDisplayed = isDisplayed;
+    this.displayed = displayed;
     this.surface = surface;
     this.distance = distance;
     this.strategy = strategy;

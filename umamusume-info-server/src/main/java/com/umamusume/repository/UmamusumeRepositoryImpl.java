@@ -40,7 +40,7 @@ public class UmamusumeRepositoryImpl {
   public List<Umamusume> findByIsDisplayed() {
     return query
         .selectFrom(umamusume)
-        .where(umamusume.isDisplayed.eq(true))
+        .where(umamusume.displayed.eq(true))
         .orderBy(umamusume.id.asc())
         .fetch();
   }

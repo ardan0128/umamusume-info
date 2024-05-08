@@ -15,6 +15,7 @@ import lombok.Setter;
 @Setter
 @JsonNaming(value = PropertyNamingStrategies.SnakeCaseStrategy.class)
 public class UmamusumeDetailResponse {
+
   private long id;
   private String title;
   private String name;
@@ -22,7 +23,7 @@ public class UmamusumeDetailResponse {
   private Distance distance;
   private Strategy strategy;
 
-  public UmamusumeDetailResponse(Umamusume umamusume){
+  public UmamusumeDetailResponse(Umamusume umamusume) {
     this.id = umamusume.getId();
     this.title = umamusume.getTitle();
     this.name = umamusume.getName();
